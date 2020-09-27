@@ -1,0 +1,23 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2020-09-24T06:08:46.497Z",
+  "entities": [
+    {
+      "class": "doc",
+      "type": "page",
+      "id": "D5BB331A-2483-4CC5-BCB7-82FFDC412B36",
+      "name": "Introduction",
+      "description": "# Success!\n\nAdobe XD for Visual Studio Code imported 85 colors, 0 character styles, and 0 components from the [{{CC-library-name}}]({{link}}) to the to the {{DSP-NAME}} Design System Package.\n\n## Welcome to your new Design System Package (DSP)\nThis page is the introduction to your Design System Package. Use this page to welcome people to your system, [Markdown](https://commonmark.org/help/) is fully supported to help you create whatever you need.\n\n## You are in Edit Mode\nAs a DSP creator, you are now in Edit Mode. When you finish editing your docs, tokens, or components, please click on the **Finish Editing** button in the Adobe XD sidebar. Adobe XD for Visual Studio Code will then compile your tokens to platform-specific code, and then you will be able to share the DSP package with your team.\n\nYou can edit the settings of your package on the \"DSP Settings\" button, and to load a new DSP please click on the Gear icon at the top left.",
+      "tags": []
+    },
+    {
+      "class": "doc",
+      "type": "page",
+      "id": "1eb6a93a-d31b-48f7-992d-89c15f8f3215",
+      "name": "Principles",
+      "description": "Edit this with the pencil icon. \n\n[Markdown](https://commonmark.org/help/) is supported to help you create great documentation for your design system.",
+      "tags": []
+    }
+  ]
+}

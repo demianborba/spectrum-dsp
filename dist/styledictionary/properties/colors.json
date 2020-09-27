@@ -1,0 +1,256 @@
+{
+  "color": {
+    "static-seafoam-200": {
+      "value": "#26C0C7ff"
+    },
+    "static-seafoam-600": {
+      "value": "#16878Cff"
+    },
+    "static-seafoam-500": {
+      "value": "#1B959Aff"
+    },
+    "static-seafoam-400": {
+      "value": "#20A3A8ff"
+    },
+    "static-seafoam-300": {
+      "value": "#23B2B8ff"
+    },
+    "static-seafoam-800": {
+      "value": "#096C6Fff"
+    },
+    "static-seafoam-700": {
+      "value": "#0F797Dff"
+    },
+    "static-indigo-500": {
+      "value": "#6767ECff"
+    },
+    "static-indigo-400": {
+      "value": "#7575F1ff"
+    },
+    "static-indigo-300": {
+      "value": "#8282F6ff"
+    },
+    "static-indigo-200": {
+      "value": "#9090FAff"
+    },
+    "static-indigo-800": {
+      "value": "#4646C6ff"
+    },
+    "static-indigo-700": {
+      "value": "#5151D3ff"
+    },
+    "static-indigo-600": {
+      "value": "#5C5CE0ff"
+    },
+    "static-purple-600": {
+      "value": "#864CCCff"
+    },
+    "static-purple-500": {
+      "value": "#9256D9ff"
+    },
+    "static-purple-400": {
+      "value": "#9D64E1ff"
+    },
+    "static-fuchsia-500": {
+      "value": "#C038CCff"
+    },
+    "static-fuchsia-400": {
+      "value": "#CF3EDCff"
+    },
+    "static-purple-800": {
+      "value": "#6F38B1ff"
+    },
+    "static-purple-700": {
+      "value": "#7A42BFff"
+    },
+    "static-fuchsia-800": {
+      "value": "#93219Eff"
+    },
+    "static-fuchsia-700": {
+      "value": "#A228ADff"
+    },
+    "static-fuchsia-600": {
+      "value": "#B130BDff"
+    },
+    "static-magenta-500": {
+      "value": "#D83790ff"
+    },
+    "static-magenta-400": {
+      "value": "#E2499Dff"
+    },
+    "static-magenta-300": {
+      "value": "#EC5AAAff"
+    },
+    "static-magenta-200": {
+      "value": "#F56BB7ff"
+    },
+    "static-magenta-800": {
+      "value": "#AE0E66ff"
+    },
+    "static-magenta-700": {
+      "value": "#BC1C74ff"
+    },
+    "static-magenta-600": {
+      "value": "#CA2982ff"
+    },
+    "static-yellow-400": {
+      "value": "#EDCC00ff"
+    },
+    "static-yellow-300": {
+      "value": "#FAD900ff"
+    },
+    "static-yellow-200": {
+      "value": "#FFE22Eff"
+    },
+    "static-yellow-700": {
+      "value": "#C4A600ff"
+    },
+    "static-yellow-600": {
+      "value": "#D2B200ff"
+    },
+    "static-yellow-500": {
+      "value": "#DFBF00ff"
+    },
+    "static-chartreuse-500": {
+      "value": "#85D044ff"
+    },
+    "static-chartreuse-400": {
+      "value": "#8EDE49ff"
+    },
+    "static-chartreuse-300": {
+      "value": "#9BEC54ff"
+    },
+    "static-yellow-800": {
+      "value": "#B79900ff"
+    },
+    "static-chartreuse-700": {
+      "value": "#73B53Aff"
+    },
+    "static-chartreuse-600": {
+      "value": "#7CC33Fff"
+    },
+    "static-celery-300": {
+      "value": "#51D267ff"
+    },
+    "static-celery-200": {
+      "value": "#58E06Fff"
+    },
+    "static-chartreuse-800": {
+      "value": "#6AA834ff"
+    },
+    "static-celery-700": {
+      "value": "#379947ff"
+    },
+    "static-celery-600": {
+      "value": "#3DA74Eff"
+    },
+    "static-celery-500": {
+      "value": "#44B556ff"
+    },
+    "static-celery-400": {
+      "value": "#4BC35Fff"
+    },
+    "static-orange-800": {
+      "value": "#BD640Dff"
+    },
+    "static-green-800": {
+      "value": "#107154ff"
+    },
+    "static-celery-800": {
+      "value": "#318B40ff"
+    },
+    "static-blue-800": {
+      "value": "#095ABAff"
+    },
+    "static-blue-300": {
+      "value": "#4B9CF5ff"
+    },
+    "static-blue-200": {
+      "value": "#5AA9FAff"
+    },
+    "static-red-800": {
+      "value": "#BB121Aff"
+    },
+    "static-gray-400": {
+      "value": "#D3D3D3ff"
+    },
+    "static-gray-300": {
+      "value": "#EAEAEAff"
+    },
+    "static-gray-200": {
+      "value": "#F4F4F4ff"
+    },
+    "static-gray-700": {
+      "value": "#747474ff"
+    },
+    "static-gray-600": {
+      "value": "#959595ff"
+    },
+    "static-gray-500": {
+      "value": "#BCBCBCff"
+    },
+    "static-blue-500": {
+      "value": "#2680EBff"
+    },
+    "static-blue-400": {
+      "value": "#378EF0ff"
+    },
+    "static-gray-900": {
+      "value": "#323232ff"
+    },
+    "static-gray-800": {
+      "value": "#505050ff"
+    },
+    "static-blue-600": {
+      "value": "#1473E6ff"
+    },
+    "static-red-500": {
+      "value": "#E34850ff"
+    },
+    "static-red-400": {
+      "value": "#EC5B62ff"
+    },
+    "static-blue-700": {
+      "value": "#0D66D0ff"
+    },
+    "static-red-700": {
+      "value": "#C9252Dff"
+    },
+    "static-red-600": {
+      "value": "#D7373Fff"
+    },
+    "static-orange-600": {
+      "value": "#DA7B11ff"
+    },
+    "static-orange-500": {
+      "value": "#E68619ff"
+    },
+    "static-orange-400": {
+      "value": "#F29423ff"
+    },
+    "static-green-400": {
+      "value": "#33AB84ff"
+    },
+    "static-orange-700": {
+      "value": "#CB6F10ff"
+    },
+    "static-green-600": {
+      "value": "#268E6Cff"
+    },
+    "static-green-500": {
+      "value": "#2D9D78ff"
+    },
+    "static-green-700": {
+      "value": "#12805Cff"
+    },
+    "static-blue": {
+      "value": "#1473E6ff"
+    },
+    "static-black": {
+      "value": "#000000ff"
+    },
+    "static-white": {
+      "value": "#FFFFFFff"
+    }
+  }
+}
