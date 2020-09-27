@@ -3,7 +3,7 @@
   "last_updated_by": "",
   "last_updated": "2020-09-24T06:08:46.497Z",
   "settings": {
-    "name": "Spectrum",
+    "name": "Adobe Spectrum DSP",
     "package_version": "0.0.1",
     "build_tool": "StyleDictionary",
     "snippet_trigger_prefix": "xd_",
