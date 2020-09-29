@@ -1,64 +1,67 @@
 {
   "size": {
-    "font-size-50": {
+    "spectrum-global-dimension-font-size-50": {
       "value": "11",
       "comment": "desktop scale: 11 px | mobile scale: 13 px"
     },
-    "font-size-75": {
+    "spectrum-global-dimension-font-size-75": {
       "value": "12",
       "comment": "desktop scale: 12 px | mobile scale: 15 px"
     },
-    "font-size-100": {
+    "spectrum-global-dimension-font-size-100": {
       "value": "14",
       "comment": "(base size) desktop scale: 14 px | mobile scale: 17 px"
     },
-    "font-size-200": {
+    "spectrum-global-dimension-font-size-200": {
       "value": "16",
       "comment": "desktop scale: 16 px | mobile scale: 19 px"
     },
-    "font-size-300": {
+    "spectrum-global-dimension-font-size-300": {
       "value": "18",
       "comment": "desktop scale: 18 px | mobile scale: 22 px"
     },
-    "font-size-400": {
+    "spectrum-global-dimension-font-size-400": {
       "value": "20",
       "comment": "desktop scale: 20 px | mobile scale: 24 px"
     },
-    "font-size-500": {
+    "spectrum-global-dimension-font-size-500": {
       "value": "22",
       "comment": "desktop scale: 22 px | mobile scale: 27 px"
     },
-    "font-size-600": {
+    "spectrum-global-dimension-font-size-600": {
       "value": "25",
       "comment": "desktop scale: 25 px | mobile scale: 31 px"
     },
-    "font-size-700": {
+    "spectrum-global-dimension-font-size-700": {
       "value": "28",
       "comment": "desktop scale: 28 px | mobile scale: 34 px"
     },
-    "font-size-800": {
+    "spectrum-global-dimension-font-size-800": {
       "value": "32",
       "comment": "desktop scale: 32 px | mobile scale: 39 px"
     },
-    "font-size-900": {
+    "spectrum-global-dimension-font-size-900": {
       "value": "36",
       "comment": "desktop scale: 36 px | mobile scale: 44 px"
     },
-    "font-size-1000": {
+    "spectrum-global-dimension-font-size-1000": {
       "value": "40",
       "comment": "desktop scale: 40 px | mobile scale: 49 px"
     },
-    "font-size-1100": {
+    "spectrum-global-dimension-font-size-1100": {
       "value": "45",
       "comment": "desktop scale: 45 px | mobile scale: 55 px"
     },
-    "font-size-1200": {
+    "spectrum-global-dimension-font-size-1200": {
       "value": "50",
       "comment": "desktop scale: 50 px | mobile scale: 62 px"
     },
-    "font-size-1300": {
+    "spectrum-global-dimension-font-size-1300": {
       "value": "60",
       "comment": "desktop scale: 60 px | mobile scale: 70 px"
+    },
+    "spectrum-global-dimension-font-size-25": {
+      "value": "10"
     }
   }
 }

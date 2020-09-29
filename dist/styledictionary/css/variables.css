@@ -1,106 +1,107 @@
 /**
  * Do not edit directly
- * Generated on Mon, 28 Sep 2020 16:43:54 GMT
+ * Generated on Tue, 29 Sep 2020 16:52:12 GMT
  */
 
 :root {
-  --color-static-seafoam-200: #26c0c7;
-  --color-static-seafoam-600: #16878c;
-  --color-static-seafoam-500: #1b959a;
-  --color-static-seafoam-400: #20a3a8;
-  --color-static-seafoam-300: #23b2b8;
-  --color-static-seafoam-800: #096c6f;
-  --color-static-seafoam-700: #0f797d;
-  --color-static-indigo-500: #6767ec;
-  --color-static-indigo-400: #7575f1;
-  --color-static-indigo-300: #8282f6;
-  --color-static-indigo-200: #9090fa;
-  --color-static-indigo-800: #4646c6;
-  --color-static-indigo-700: #5151d3;
-  --color-static-indigo-600: #5c5ce0;
-  --color-static-purple-600: #864ccc;
-  --color-static-purple-500: #9256d9;
-  --color-static-purple-400: #9d64e1;
-  --color-static-fuchsia-500: #c038cc;
-  --color-static-fuchsia-400: #cf3edc;
-  --color-static-purple-800: #6f38b1;
-  --color-static-purple-700: #7a42bf;
-  --color-static-fuchsia-800: #93219e;
-  --color-static-fuchsia-700: #a228ad;
-  --color-static-fuchsia-600: #b130bd;
-  --color-static-magenta-500: #d83790;
-  --color-static-magenta-400: #e2499d;
-  --color-static-magenta-300: #ec5aaa;
-  --color-static-magenta-200: #f56bb7;
-  --color-static-magenta-800: #ae0e66;
-  --color-static-magenta-700: #bc1c74;
-  --color-static-magenta-600: #ca2982;
-  --color-static-yellow-400: #edcc00;
-  --color-static-yellow-300: #fad900;
-  --color-static-yellow-200: #ffe22e;
-  --color-static-yellow-700: #c4a600;
-  --color-static-yellow-600: #d2b200;
-  --color-static-yellow-500: #dfbf00;
-  --color-static-chartreuse-500: #85d044;
-  --color-static-chartreuse-400: #8ede49;
-  --color-static-chartreuse-300: #9bec54;
-  --color-static-yellow-800: #b79900;
-  --color-static-chartreuse-700: #73b53a;
-  --color-static-chartreuse-600: #7cc33f;
-  --color-static-celery-300: #51d267;
-  --color-static-celery-200: #58e06f;
-  --color-static-chartreuse-800: #6aa834;
-  --color-static-celery-700: #379947;
-  --color-static-celery-600: #3da74e;
-  --color-static-celery-500: #44b556;
-  --color-static-celery-400: #4bc35f;
-  --color-static-orange-800: #bd640d;
-  --color-static-green-800: #107154;
-  --color-static-celery-800: #318b40;
-  --color-static-blue-800: #095aba;
-  --color-static-blue-300: #4b9cf5;
-  --color-static-blue-200: #5aa9fa;
-  --color-static-red-800: #bb121a;
-  --color-static-gray-400: #d3d3d3;
-  --color-static-gray-300: #eaeaea;
-  --color-static-gray-200: #f4f4f4;
-  --color-static-gray-700: #747474;
-  --color-static-gray-600: #959595;
-  --color-static-gray-500: #bcbcbc;
-  --color-static-blue-500: #2680eb;
-  --color-static-blue-400: #378ef0;
-  --color-static-gray-900: #323232;
-  --color-static-gray-800: #505050;
-  --color-static-blue-600: #1473e6;
-  --color-static-red-500: #e34850;
-  --color-static-red-400: #ec5b62;
-  --color-static-blue-700: #0d66d0;
-  --color-static-red-700: #c9252d;
-  --color-static-red-600: #d7373f;
-  --color-static-orange-600: #da7b11;
-  --color-static-orange-500: #e68619;
-  --color-static-orange-400: #f29423;
-  --color-static-green-400: #33ab84;
-  --color-static-orange-700: #cb6f10;
-  --color-static-green-600: #268e6c;
-  --color-static-green-500: #2d9d78;
-  --color-static-green-700: #12805c;
-  --color-static-blue: #1473e6;
-  --color-static-black: #000000;
-  --color-static-white: #ffffff;
-  --size-font-size-50: 11rem; /* desktop scale: 11 px | mobile scale: 13 px */
-  --size-font-size-75: 12rem; /* desktop scale: 12 px | mobile scale: 15 px */
-  --size-font-size-100: 14rem; /* (base size) desktop scale: 14 px | mobile scale: 17 px */
-  --size-font-size-200: 16rem; /* desktop scale: 16 px | mobile scale: 19 px */
-  --size-font-size-300: 18rem; /* desktop scale: 18 px | mobile scale: 22 px */
-  --size-font-size-400: 20rem; /* desktop scale: 20 px | mobile scale: 24 px */
-  --size-font-size-500: 22rem; /* desktop scale: 22 px | mobile scale: 27 px */
-  --size-font-size-600: 25rem; /* desktop scale: 25 px | mobile scale: 31 px */
-  --size-font-size-700: 28rem; /* desktop scale: 28 px | mobile scale: 34 px */
-  --size-font-size-800: 32rem; /* desktop scale: 32 px | mobile scale: 39 px */
-  --size-font-size-900: 36rem; /* desktop scale: 36 px | mobile scale: 44 px */
-  --size-font-size-1000: 40rem; /* desktop scale: 40 px | mobile scale: 49 px */
-  --size-font-size-1100: 45rem; /* desktop scale: 45 px | mobile scale: 55 px */
-  --size-font-size-1200: 50rem; /* desktop scale: 50 px | mobile scale: 62 px */
-  --size-font-size-1300: 60rem; /* desktop scale: 60 px | mobile scale: 70 px */
+  --color-spectrum-global-color-static-seafoam-200: #26c0c7;
+  --color-spectrum-global-color-static-seafoam-600: #16878c;
+  --color-spectrum-global-color-static-seafoam-500: #1b959a;
+  --color-spectrum-global-color-static-seafoam-400: #20a3a8;
+  --color-spectrum-global-color-static-seafoam-300: #23b2b8;
+  --color-spectrum-global-color-static-seafoam-800: #096c6f;
+  --color-spectrum-global-color-static-seafoam-700: #0f797d;
+  --color-spectrum-global-color-static-indigo-500: #6767ec;
+  --color-spectrum-global-color-static-indigo-400: #7575f1;
+  --color-spectrum-global-color-static-indigo-300: #8282f6;
+  --color-spectrum-global-color-static-indigo-200: #9090fa;
+  --color-spectrum-global-color-static-indigo-800: #4646c6;
+  --color-spectrum-global-color-static-indigo-700: #5151d3;
+  --color-spectrum-global-color-static-indigo-600: #5c5ce0;
+  --color-spectrum-global-color-static-purple-600: #864ccc;
+  --color-spectrum-global-color-static-purple-500: #9256d9;
+  --color-spectrum-global-color-static-purple-400: #9d64e1;
+  --color-spectrum-global-color-static-fuchsia-500: #c038cc;
+  --color-spectrum-global-color-static-fuchsia-400: #cf3edc;
+  --color-spectrum-global-color-static-purple-800: #6f38b1;
+  --color-spectrum-global-color-static-purple-700: #7a42bf;
+  --color-spectrum-global-color-static-fuchsia-800: #93219e;
+  --color-spectrum-global-color-static-fuchsia-700: #a228ad;
+  --color-spectrum-global-color-static-fuchsia-600: #b130bd;
+  --color-spectrum-global-color-static-magenta-500: #d83790;
+  --color-spectrum-global-color-static-magenta-400: #e2499d;
+  --color-spectrum-global-color-static-magenta-300: #ec5aaa;
+  --color-spectrum-global-color-static-magenta-200: #f56bb7;
+  --color-spectrum-global-color-static-magenta-800: #ae0e66;
+  --color-spectrum-global-color-static-magenta-700: #bc1c74;
+  --color-spectrum-global-color-static-magenta-600: #ca2982;
+  --color-spectrum-global-color-static-yellow-400: #edcc00;
+  --color-spectrum-global-color-static-yellow-300: #fad900;
+  --color-spectrum-global-color-static-yellow-200: #ffe22e;
+  --color-spectrum-global-color-static-yellow-700: #c4a600;
+  --color-spectrum-global-color-static-yellow-600: #d2b200;
+  --color-spectrum-global-color-static-yellow-500: #dfbf00;
+  --color-spectrum-global-color-static-chartreuse-500: #85d044;
+  --color-spectrum-global-color-static-chartreuse-400: #8ede49;
+  --color-spectrum-global-color-static-chartreuse-300: #9bec54;
+  --color-spectrum-global-color-static-yellow-800: #b79900;
+  --color-spectrum-global-color-static-chartreuse-700: #73b53a;
+  --color-spectrum-global-color-static-chartreuse-600: #7cc33f;
+  --color-spectrum-global-color-static-celery-300: #51d267;
+  --color-spectrum-global-color-static-celery-200: #58e06f;
+  --color-spectrum-global-color-static-chartreuse-800: #6aa834;
+  --color-spectrum-global-color-static-celery-700: #379947;
+  --color-spectrum-global-color-static-celery-600: #3da74e;
+  --color-spectrum-global-color-static-celery-500: #44b556;
+  --color-spectrum-global-color-static-celery-400: #4bc35f;
+  --color-spectrum-global-color-static-orange-800: #bd640d;
+  --color-spectrum-global-color-static-green-800: #107154;
+  --color-spectrum-global-color-static-celery-800: #318b40;
+  --color-spectrum-global-color-static-blue-800: #095aba;
+  --color-spectrum-global-color-static-blue-300: #4b9cf5;
+  --color-spectrum-global-color-static-blue-200: #5aa9fa;
+  --color-spectrum-global-color-static-red-800: #bb121a;
+  --color-spectrum-global-color-static-gray-400: #d3d3d3;
+  --color-spectrum-global-color-static-gray-300: #eaeaea;
+  --color-spectrum-global-color-static-gray-200: #f4f4f4;
+  --color-spectrum-global-color-static-gray-700: #747474;
+  --color-spectrum-global-color-static-gray-600: #959595;
+  --color-spectrum-global-color-static-gray-500: #bcbcbc;
+  --color-spectrum-global-color-static-blue-500: #2680eb;
+  --color-spectrum-global-color-static-blue-400: #378ef0;
+  --color-spectrum-global-color-static-gray-900: #323232;
+  --color-spectrum-global-color-static-gray-800: #505050;
+  --color-spectrum-global-color-static-blue-600: #1473e6;
+  --color-spectrum-global-color-static-red-500: #e34850;
+  --color-spectrum-global-color-static-red-400: #ec5b62;
+  --color-spectrum-global-color-static-blue-700: #0d66d0;
+  --color-spectrum-global-color-static-red-700: #c9252d;
+  --color-spectrum-global-color-static-red-600: #d7373f;
+  --color-spectrum-global-color-static-orange-600: #da7b11;
+  --color-spectrum-global-color-static-orange-500: #e68619;
+  --color-spectrum-global-color-static-orange-400: #f29423;
+  --color-spectrum-global-color-static-green-400: #33ab84;
+  --color-spectrum-global-color-static-orange-700: #cb6f10;
+  --color-spectrum-global-color-static-green-600: #268e6c;
+  --color-spectrum-global-color-static-green-500: #2d9d78;
+  --color-spectrum-global-color-static-green-700: #12805c;
+  --color-spectrum-global-color-static-blue: #1473e6;
+  --color-spectrum-global-color-static-black: #000000;
+  --color-spectrum-global-color-static-white: #ffffff;
+  --size-spectrum-global-dimension-font-size-50: 11rem; /* desktop scale: 11 px | mobile scale: 13 px */
+  --size-spectrum-global-dimension-font-size-75: 12rem; /* desktop scale: 12 px | mobile scale: 15 px */
+  --size-spectrum-global-dimension-font-size-100: 14rem; /* (base size) desktop scale: 14 px | mobile scale: 17 px */
+  --size-spectrum-global-dimension-font-size-200: 16rem; /* desktop scale: 16 px | mobile scale: 19 px */
+  --size-spectrum-global-dimension-font-size-300: 18rem; /* desktop scale: 18 px | mobile scale: 22 px */
+  --size-spectrum-global-dimension-font-size-400: 20rem; /* desktop scale: 20 px | mobile scale: 24 px */
+  --size-spectrum-global-dimension-font-size-500: 22rem; /* desktop scale: 22 px | mobile scale: 27 px */
+  --size-spectrum-global-dimension-font-size-600: 25rem; /* desktop scale: 25 px | mobile scale: 31 px */
+  --size-spectrum-global-dimension-font-size-700: 28rem; /* desktop scale: 28 px | mobile scale: 34 px */
+  --size-spectrum-global-dimension-font-size-800: 32rem; /* desktop scale: 32 px | mobile scale: 39 px */
+  --size-spectrum-global-dimension-font-size-900: 36rem; /* desktop scale: 36 px | mobile scale: 44 px */
+  --size-spectrum-global-dimension-font-size-1000: 40rem; /* desktop scale: 40 px | mobile scale: 49 px */
+  --size-spectrum-global-dimension-font-size-1100: 45rem; /* desktop scale: 45 px | mobile scale: 55 px */
+  --size-spectrum-global-dimension-font-size-1200: 50rem; /* desktop scale: 50 px | mobile scale: 62 px */
+  --size-spectrum-global-dimension-font-size-1300: 60rem; /* desktop scale: 60 px | mobile scale: 70 px */
+  --size-spectrum-global-dimension-font-size-25: 10rem;
 }
