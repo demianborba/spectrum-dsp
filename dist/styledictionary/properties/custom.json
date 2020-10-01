@@ -1,3 +1,106 @@
 {
-  "custom": {}
+  "custom": {
+    "spectrum-global-color-opacity-100": {
+      "value": "1"
+    },
+    "spectrum-global-color-opacity-90": {
+      "value": "0.9"
+    },
+    "spectrum-global-color-opacity-80": {
+      "value": "0.8"
+    },
+    "spectrum-global-color-opacity-60": {
+      "value": "0.6"
+    },
+    "spectrum-global-color-opacity-50": {
+      "value": "0.5"
+    },
+    "spectrum-global-color-opacity-42": {
+      "value": "0.42"
+    },
+    "spectrum-global-color-opacity-40": {
+      "value": "0.4"
+    },
+    "spectrum-global-color-opacity-30": {
+      "value": "0.3"
+    },
+    "spectrum-global-color-opacity-25": {
+      "value": "0.25"
+    },
+    "spectrum-global-color-opacity-20": {
+      "value": "0.2"
+    },
+    "spectrum-global-color-opacity-15": {
+      "value": "0.15"
+    },
+    "spectrum-global-color-opacity-10": {
+      "value": "0.1"
+    },
+    "spectrum-global-color-opacity-8": {
+      "value": "0.08"
+    },
+    "spectrum-global-color-opacity-7": {
+      "value": "0.07"
+    },
+    "spectrum-global-color-opacity-6": {
+      "value": "0.06"
+    },
+    "spectrum-global-color-opacity-5": {
+      "value": "0.05"
+    },
+    "spectrum-global-color-opacity-4": {
+      "value": "0.04"
+    },
+    "spectrum-global-animation-duration-0": {
+      "value": "0ms"
+    },
+    "pectrum-global-animation-duration-100": {
+      "value": "130ms"
+    },
+    "spectrum-global-animation-duration-200": {
+      "value": "160ms"
+    },
+    "spectrum-global-animation-duration-300": {
+      "value": "190ms"
+    },
+    "spectrum-global-animation-duration-400": {
+      "value": "220ms"
+    },
+    "spectrum-global-animation-duration-500": {
+      "value": "250ms"
+    },
+    "spectrum-global-animation-duration-600": {
+      "value": "300ms"
+    },
+    "spectrum-global-animation-duration-700": {
+      "value": "350ms"
+    },
+    "spectrum-global-animation-duration-800": {
+      "value": "400ms"
+    },
+    "spectrum-global-animation-duration-900": {
+      "value": "450ms"
+    },
+    "spectrum-global-animation-duration-1000": {
+      "value": "500ms"
+    },
+    "spectrum-global-animation-duration-2000": {
+      "value": "1000ms"
+    },
+    "spectrum-global-animation-duration-4000": {
+      "value": "2000ms"
+    },
+    "spectrum-global-animation-ease-in-out": {
+      "value": "(.45, 0, .40, 1)"
+    },
+    "spectrum-global-animation-ease-in": {
+      "value": "(.50, 0, 1, 1)"
+    },
+    "spectrum-global-animation-ease-out": {
+      "value": "(0, 0, 0.40, 1)"
+    },
+    "spectrum-global-animation-linear": {
+      "value": "(0, 0, 1, 1)"
+    }
+  }
 }
