@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 01 Oct 2020 02:08:51 GMT
+ * Generated on Thu, 01 Oct 2020 13:45:42 GMT
  */
 
 :root {
@@ -117,4 +117,21 @@
   --custom-spectrum-global-color-opacity-6: 0.06;
   --custom-spectrum-global-color-opacity-5: 0.05;
   --custom-spectrum-global-color-opacity-4: 0.04;
+  --custom-spectrum-global-animation-duration-0: 0ms;
+  --custom-pectrum-global-animation-duration-100: 130ms;
+  --custom-spectrum-global-animation-duration-200: 160ms;
+  --custom-spectrum-global-animation-duration-300: 190ms;
+  --custom-spectrum-global-animation-duration-400: 220ms;
+  --custom-spectrum-global-animation-duration-500: 250ms;
+  --custom-spectrum-global-animation-duration-600: 300ms;
+  --custom-spectrum-global-animation-duration-700: 350ms;
+  --custom-spectrum-global-animation-duration-800: 400ms;
+  --custom-spectrum-global-animation-duration-900: 450ms;
+  --custom-spectrum-global-animation-duration-1000: 500ms;
+  --custom-spectrum-global-animation-duration-2000: 1000ms;
+  --custom-spectrum-global-animation-duration-4000: 2000ms;
+  --custom-spectrum-global-animation-ease-in-out: (.45, 0, .40, 1);
+  --custom-spectrum-global-animation-ease-in: (.50, 0, 1, 1);
+  --custom-spectrum-global-animation-ease-out: (0, 0, 0.40, 1);
+  --custom-spectrum-global-animation-linear: (0, 0, 1, 1);
 }

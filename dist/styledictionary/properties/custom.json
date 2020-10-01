@@ -50,6 +50,57 @@
     },
     "spectrum-global-color-opacity-4": {
       "value": "0.04"
+    },
+    "spectrum-global-animation-duration-0": {
+      "value": "0ms"
+    },
+    "pectrum-global-animation-duration-100": {
+      "value": "130ms"
+    },
+    "spectrum-global-animation-duration-200": {
+      "value": "160ms"
+    },
+    "spectrum-global-animation-duration-300": {
+      "value": "190ms"
+    },
+    "spectrum-global-animation-duration-400": {
+      "value": "220ms"
+    },
+    "spectrum-global-animation-duration-500": {
+      "value": "250ms"
+    },
+    "spectrum-global-animation-duration-600": {
+      "value": "300ms"
+    },
+    "spectrum-global-animation-duration-700": {
+      "value": "350ms"
+    },
+    "spectrum-global-animation-duration-800": {
+      "value": "400ms"
+    },
+    "spectrum-global-animation-duration-900": {
+      "value": "450ms"
+    },
+    "spectrum-global-animation-duration-1000": {
+      "value": "500ms"
+    },
+    "spectrum-global-animation-duration-2000": {
+      "value": "1000ms"
+    },
+    "spectrum-global-animation-duration-4000": {
+      "value": "2000ms"
+    },
+    "spectrum-global-animation-ease-in-out": {
+      "value": "(.45, 0, .40, 1)"
+    },
+    "spectrum-global-animation-ease-in": {
+      "value": "(.50, 0, 1, 1)"
+    },
+    "spectrum-global-animation-ease-out": {
+      "value": "(0, 0, 0.40, 1)"
+    },
+    "spectrum-global-animation-linear": {
+      "value": "(0, 0, 1, 1)"
     }
   }
 }
