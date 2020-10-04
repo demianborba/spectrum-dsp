@@ -1,6 +1,139 @@
 {
   "dsp_spec_version": "0.0.1",
-  "last_updated_by": "",
+  "last_updated_by": "Demian Borba",
   "last_updated": "2020-09-24T06:08:46.497Z",
-  "entities": []
+  "entities": [
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "d761ffab-8da3-499b-a657-81621593e173",
+      "name": "Code",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "d761ffab-8da3-499b-a657-81621593e173",
+        "last_sync": "2020-10-04T23:01:31.683Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "Code-family",
+          "type": "custom",
+          "value": "Source Code Pro",
+          "key": "family"
+        },
+        {
+          "id": "Code-weight",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "Code-size",
+          "type": "size",
+          "value": "16",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "9536d270-fe9e-47ca-8002-e6ba4b760a55",
+      "name": "Heading",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "9536d270-fe9e-47ca-8002-e6ba4b760a55",
+        "last_sync": "2020-10-04T23:01:31.683Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "Heading-family",
+          "type": "custom",
+          "value": "Adobe Clean",
+          "key": "family"
+        },
+        {
+          "id": "Heading-weight",
+          "type": "custom",
+          "value": "Bold",
+          "key": "weight"
+        },
+        {
+          "id": "Heading-size",
+          "type": "size",
+          "value": "{spectrum-global-dimension-static-font-size-500}",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "74d8c667-d1b0-4a64-ba7e-653e4ea9c4fd",
+      "name": "Body",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "74d8c667-d1b0-4a64-ba7e-653e4ea9c4fd",
+        "last_sync": "2020-10-04T23:01:31.683Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "Body-family",
+          "type": "custom",
+          "value": "Adobe Clean",
+          "key": "family"
+        },
+        {
+          "id": "Body-weight",
+          "type": "custom",
+          "value": "Regular",
+          "key": "weight"
+        },
+        {
+          "id": "Body-size",
+          "type": "size",
+          "value": "16",
+          "key": "size"
+        }
+      ]
+    },
+    {
+      "class": "collection",
+      "type": "font",
+      "id": "77a4dccc-3ca9-49b9-83ad-eef4e912a639",
+      "name": "Detail",
+      "tags": [],
+      "ext-com_adobe-cclib": {
+        "source": "https://shared-assets.adobe.com/link/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "77a4dccc-3ca9-49b9-83ad-eef4e912a639",
+        "last_sync": "2020-10-04T23:01:31.683Z",
+        "sync": true
+      },
+      "tokens": [
+        {
+          "id": "Detail-family",
+          "type": "custom",
+          "value": "Adobe Clean",
+          "key": "family"
+        },
+        {
+          "id": "Detail-weight",
+          "type": "custom",
+          "value": "Bold",
+          "key": "weight"
+        },
+        {
+          "id": "Detail-size",
+          "type": "size",
+          "value": "12",
+          "key": "size"
+        }
+      ]
+    }
+  ]
 }

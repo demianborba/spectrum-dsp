@@ -1,9 +1,9 @@
 {
   "dsp_spec_version": "0.0.1",
-  "last_updated_by": "",
+  "last_updated_by": "Demian Borba",
   "last_updated": "2020-09-24T06:08:46.497Z",
   "settings": {
-    "build_params": "-c ./config.json",
+    "build_params": "./config.js",
     "build_status_label": "dev",
     "build_tool": "StyleDictionary",
     "languages": [
@@ -191,7 +191,7 @@
     ],
     "name": "Adobe Spectrum DSP",
     "package_version": "0.0.1",
-    "snippet_trigger_prefix": "xd_"
+    "snippet_trigger_prefix": "xd-"
   },
   "import": [
     {

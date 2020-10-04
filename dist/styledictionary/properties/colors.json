@@ -1,10 +1,16 @@
 {
   "color": {
-    "spectrum-global-color-static-seafoam-200": {
-      "value": "#26C0C7ff"
+    "spectrum-global-color-static-blue": {
+      "value": "{color.spectrum-global-color-static-blue-600.value}"
     },
-    "spectrum-global-color-static-seafoam-600": {
-      "value": "#16878Cff"
+    "spectrum-global-color-static-gray-50": {
+      "value": "{color.spectrum-global-color-static-white.value}"
+    },
+    "spectrum-global-color-static-gray-75": {
+      "value": "{color.spectrum-global-color-static-white.value}"
+    },
+    "spectrum-global-color-static-gray-100": {
+      "value": "{color.spectrum-global-color-static-white.value}"
     },
     "spectrum-global-color-static-seafoam-500": {
       "value": "#1B959Aff"
@@ -15,11 +21,26 @@
     "spectrum-global-color-static-seafoam-300": {
       "value": "#23B2B8ff"
     },
+    "spectrum-global-color-static-seafoam-200": {
+      "value": "#26C0C7ff"
+    },
+    "spectrum-global-color-static-indigo-200": {
+      "value": "#9090FAff"
+    },
     "spectrum-global-color-static-seafoam-800": {
       "value": "#096C6Fff"
     },
     "spectrum-global-color-static-seafoam-700": {
       "value": "#0F797Dff"
+    },
+    "spectrum-global-color-static-seafoam-600": {
+      "value": "#16878Cff"
+    },
+    "spectrum-global-color-static-indigo-700": {
+      "value": "#5151D3ff"
+    },
+    "spectrum-global-color-static-indigo-600": {
+      "value": "#5C5CE0ff"
     },
     "spectrum-global-color-static-indigo-500": {
       "value": "#6767ECff"
@@ -30,18 +51,6 @@
     "spectrum-global-color-static-indigo-300": {
       "value": "#8282F6ff"
     },
-    "spectrum-global-color-static-indigo-200": {
-      "value": "#9090FAff"
-    },
-    "spectrum-global-color-static-indigo-800": {
-      "value": "#4646C6ff"
-    },
-    "spectrum-global-color-static-indigo-700": {
-      "value": "#5151D3ff"
-    },
-    "spectrum-global-color-static-indigo-600": {
-      "value": "#5C5CE0ff"
-    },
     "spectrum-global-color-static-purple-600": {
       "value": "#864CCCff"
     },
@@ -50,6 +59,9 @@
     },
     "spectrum-global-color-static-purple-400": {
       "value": "#9D64E1ff"
+    },
+    "spectrum-global-color-static-indigo-800": {
+      "value": "#4646C6ff"
     },
     "spectrum-global-color-static-fuchsia-500": {
       "value": "#C038CCff"
@@ -63,6 +75,12 @@
     "spectrum-global-color-static-purple-700": {
       "value": "#7A42BFff"
     },
+    "spectrum-global-color-static-magenta-300": {
+      "value": "#EC5AAAff"
+    },
+    "spectrum-global-color-static-magenta-200": {
+      "value": "#F56BB7ff"
+    },
     "spectrum-global-color-static-fuchsia-800": {
       "value": "#93219Eff"
     },
@@ -72,26 +90,20 @@
     "spectrum-global-color-static-fuchsia-600": {
       "value": "#B130BDff"
     },
+    "spectrum-global-color-static-magenta-700": {
+      "value": "#BC1C74ff"
+    },
+    "spectrum-global-color-static-magenta-600": {
+      "value": "#CA2982ff"
+    },
     "spectrum-global-color-static-magenta-500": {
       "value": "#D83790ff"
     },
     "spectrum-global-color-static-magenta-400": {
       "value": "#E2499Dff"
     },
-    "spectrum-global-color-static-magenta-300": {
-      "value": "#EC5AAAff"
-    },
-    "spectrum-global-color-static-magenta-200": {
-      "value": "#F56BB7ff"
-    },
-    "spectrum-global-color-static-magenta-800": {
-      "value": "#AE0E66ff"
-    },
-    "spectrum-global-color-static-magenta-700": {
-      "value": "#BC1C74ff"
-    },
-    "spectrum-global-color-static-magenta-600": {
-      "value": "#CA2982ff"
+    "spectrum-global-color-static-yellow-500": {
+      "value": "#DFBF00ff"
     },
     "spectrum-global-color-static-yellow-400": {
       "value": "#EDCC00ff"
@@ -102,17 +114,8 @@
     "spectrum-global-color-static-yellow-200": {
       "value": "#FFE22Eff"
     },
-    "spectrum-global-color-static-yellow-700": {
-      "value": "#C4A600ff"
-    },
-    "spectrum-global-color-static-yellow-600": {
-      "value": "#D2B200ff"
-    },
-    "spectrum-global-color-static-yellow-500": {
-      "value": "#DFBF00ff"
-    },
-    "spectrum-global-color-static-chartreuse-500": {
-      "value": "#85D044ff"
+    "spectrum-global-color-static-magenta-800": {
+      "value": "#AE0E66ff"
     },
     "spectrum-global-color-static-chartreuse-400": {
       "value": "#8EDE49ff"
@@ -123,11 +126,26 @@
     "spectrum-global-color-static-yellow-800": {
       "value": "#B79900ff"
     },
+    "spectrum-global-color-static-yellow-700": {
+      "value": "#C4A600ff"
+    },
+    "spectrum-global-color-static-yellow-600": {
+      "value": "#D2B200ff"
+    },
+    "spectrum-global-color-static-chartreuse-800": {
+      "value": "#6AA834ff"
+    },
     "spectrum-global-color-static-chartreuse-700": {
       "value": "#73B53Aff"
     },
     "spectrum-global-color-static-chartreuse-600": {
       "value": "#7CC33Fff"
+    },
+    "spectrum-global-color-static-chartreuse-500": {
+      "value": "#85D044ff"
+    },
+    "spectrum-global-color-static-celery-400": {
+      "value": "#4BC35Fff"
     },
     "spectrum-global-color-static-celery-300": {
       "value": "#51D267ff"
@@ -135,20 +153,14 @@
     "spectrum-global-color-static-celery-200": {
       "value": "#58E06Fff"
     },
-    "spectrum-global-color-static-chartreuse-800": {
-      "value": "#6AA834ff"
-    },
-    "spectrum-global-color-static-celery-700": {
-      "value": "#379947ff"
-    },
     "spectrum-global-color-static-celery-600": {
       "value": "#3DA74Eff"
     },
     "spectrum-global-color-static-celery-500": {
       "value": "#44B556ff"
     },
-    "spectrum-global-color-static-celery-400": {
-      "value": "#4BC35Fff"
+    "spectrum-global-color-static-red-800": {
+      "value": "#BB121Aff"
     },
     "spectrum-global-color-static-orange-800": {
       "value": "#BD640Dff"
@@ -159,6 +171,15 @@
     "spectrum-global-color-static-celery-800": {
       "value": "#318B40ff"
     },
+    "spectrum-global-color-static-celery-700": {
+      "value": "#379947ff"
+    },
+    "spectrum-global-color-static-black": {
+      "value": "#000000ff"
+    },
+    "spectrum-global-color-static-white": {
+      "value": "#FFFFFFff"
+    },
     "spectrum-global-color-static-blue-800": {
       "value": "#095ABAff"
     },
@@ -168,8 +189,11 @@
     "spectrum-global-color-static-blue-200": {
       "value": "#5AA9FAff"
     },
-    "spectrum-global-color-static-red-800": {
-      "value": "#BB121Aff"
+    "spectrum-global-color-static-gray-600": {
+      "value": "#959595ff"
+    },
+    "spectrum-global-color-static-gray-500": {
+      "value": "#BCBCBCff"
     },
     "spectrum-global-color-static-gray-400": {
       "value": "#D3D3D3ff"
@@ -180,18 +204,6 @@
     "spectrum-global-color-static-gray-200": {
       "value": "#F4F4F4ff"
     },
-    "spectrum-global-color-static-gray-700": {
-      "value": "#747474ff"
-    },
-    "spectrum-global-color-static-gray-600": {
-      "value": "#959595ff"
-    },
-    "spectrum-global-color-static-gray-500": {
-      "value": "#BCBCBCff"
-    },
-    "spectrum-global-color-static-blue-500": {
-      "value": "#2680EBff"
-    },
     "spectrum-global-color-static-blue-400": {
       "value": "#378EF0ff"
     },
@@ -201,8 +213,8 @@
     "spectrum-global-color-static-gray-800": {
       "value": "#505050ff"
     },
-    "spectrum-global-color-static-blue-600": {
-      "value": "#1473E6ff"
+    "spectrum-global-color-static-gray-700": {
+      "value": "#747474ff"
     },
     "spectrum-global-color-static-red-500": {
       "value": "#E34850ff"
@@ -212,6 +224,12 @@
     },
     "spectrum-global-color-static-blue-700": {
       "value": "#0D66D0ff"
+    },
+    "spectrum-global-color-static-blue-600": {
+      "value": "#1473E6ff"
+    },
+    "spectrum-global-color-static-blue-500": {
+      "value": "#2680EBff"
     },
     "spectrum-global-color-static-red-700": {
       "value": "#C9252Dff"
@@ -228,29 +246,20 @@
     "spectrum-global-color-static-orange-400": {
       "value": "#F29423ff"
     },
-    "spectrum-global-color-static-green-400": {
-      "value": "#33AB84ff"
-    },
-    "spectrum-global-color-static-orange-700": {
-      "value": "#CB6F10ff"
-    },
     "spectrum-global-color-static-green-600": {
       "value": "#268E6Cff"
     },
     "spectrum-global-color-static-green-500": {
       "value": "#2D9D78ff"
     },
+    "spectrum-global-color-static-green-400": {
+      "value": "#33AB84ff"
+    },
+    "spectrum-global-color-static-orange-700": {
+      "value": "#CB6F10ff"
+    },
     "spectrum-global-color-static-green-700": {
       "value": "#12805Cff"
-    },
-    "spectrum-global-color-static-blue": {
-      "value": "#1473E6ff"
-    },
-    "spectrum-global-color-static-black": {
-      "value": "#000000ff"
-    },
-    "spectrum-global-color-static-white": {
-      "value": "#FFFFFFff"
     }
   }
 }

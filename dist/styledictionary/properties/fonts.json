@@ -1,6 +1,52 @@
 {
-  "font": {},
+  "font": {
+    "Code": {
+      "family": {
+        "value": "Source Code Pro"
+      },
+      "style": {
+        "value": "Regular"
+      }
+    },
+    "Heading": {
+      "family": {
+        "value": "Adobe Clean"
+      },
+      "style": {
+        "value": "Bold"
+      }
+    },
+    "Body": {
+      "family": {
+        "value": "Adobe Clean"
+      },
+      "style": {
+        "value": "Regular"
+      }
+    },
+    "Detail": {
+      "family": {
+        "value": "Adobe Clean"
+      },
+      "style": {
+        "value": "Bold"
+      }
+    }
+  },
   "size": {
-    "font": {}
+    "font": {
+      "Code": {
+        "value": "16"
+      },
+      "Heading": {
+        "value": "{custom.spectrum-global-dimension-static-font-size-500.value}"
+      },
+      "Body": {
+        "value": "16"
+      },
+      "Detail": {
+        "value": "12"
+      }
+    }
   }
 }

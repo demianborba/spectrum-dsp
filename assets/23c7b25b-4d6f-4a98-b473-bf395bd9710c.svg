@@ -1,0 +1,30 @@
+<svg id="Action_button_group" data-name="Action button group" xmlns="http://www.w3.org/2000/svg" width="130" height="32" viewBox="0 0 130 32">
+  <g id="Placement_Area" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="130" height="32" stroke="none"/>
+    <rect x="0.5" y="0.5" width="129" height="31" fill="none"/>
+  </g>
+  <g id="Action_Button" data-name="Action Button">
+    <g id="Placement_Area-2" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="61" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="60" height="31" fill="none"/>
+    </g>
+    <g id="Background" fill="#fafafa" stroke="rgba(0,0,0,0)" stroke-width="1">
+      <rect width="61" height="32" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="60" height="31" rx="3.5" fill="none"/>
+    </g>
+    <path id="Border" d="M4,0H57a4,4,0,0,1,4,4V28a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0ZM4,1A3,3,0,0,0,1,4V28a3,3,0,0,0,3,3H57a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3Z" fill="#cacaca"/>
+    <text id="Text" transform="translate(12 20)" fill="#4b4b4b" font-size="14" font-family="AdobeClean-Regular, Adobe Clean"><tspan x="0" y="0">Action</tspan></text>
+  </g>
+  <g id="Action_Button-2" data-name="Action Button">
+    <g id="Placement_Area-3" data-name="Placement Area" transform="translate(69)" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="61" height="32" stroke="none"/>
+      <rect x="0.5" y="0.5" width="60" height="31" fill="none"/>
+    </g>
+    <g id="Background-2" data-name="Background" transform="translate(69)" fill="#fafafa" stroke="rgba(0,0,0,0)" stroke-width="1">
+      <rect width="61" height="32" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="60" height="31" rx="3.5" fill="none"/>
+    </g>
+    <path id="Border-2" data-name="Border" d="M4,0H57a4,4,0,0,1,4,4V28a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0ZM4,1A3,3,0,0,0,1,4V28a3,3,0,0,0,3,3H57a3,3,0,0,0,3-3V4a3,3,0,0,0-3-3Z" transform="translate(69)" fill="#cacaca"/>
+    <text id="Text-2" data-name="Text" transform="translate(81 20)" fill="#4b4b4b" font-size="14" font-family="AdobeClean-Regular, Adobe Clean"><tspan x="0" y="0">Action</tspan></text>
+  </g>
+</svg>
