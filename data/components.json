@@ -16,12 +16,7 @@
         }
       },
       "name": "ActionButton",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)"
     },
     {
       "class": "component",
@@ -36,12 +31,7 @@
         }
       },
       "name": "ActionGroup",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## ActionGroup\n\nAn ActionGroup is a grouping of ActionButtons that are related to one another.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionGroup.html)"
     },
     {
       "class": "component",
@@ -56,12 +46,7 @@
         }
       },
       "name": "Button",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Button.html)"
     },
     {
       "class": "component",
@@ -75,7 +60,8 @@
           "react": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
         }
       },
-      "name": "ButtonGroup"
+      "name": "ButtonGroup",
+      "description": "## ButtonGroup\n\nButtonGroup handles overflow for a grouping of buttons whose actions are related to each other.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ButtonGroup.html)"
     },
     {
       "class": "component",
@@ -90,12 +76,7 @@
         }
       },
       "name": "Checkbox",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Checkbox.html)"
     },
     {
       "class": "component",
@@ -109,7 +90,8 @@
           "react": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
         }
       },
-      "name": "RadioGroup"
+      "name": "RadioGroup",
+      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)"
     },
     {
       "class": "component",
@@ -123,7 +105,8 @@
           "react": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
         }
       },
-      "name": "SearchField"
+      "name": "SearchField",
+      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)"
     },
 
     {
@@ -139,12 +122,7 @@
         }
       },
       "name": "Dialog",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ec1db177-58ba-4612-bbdc-4938ba337ff7",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Dialog\n\nDialogs are windows containing contextual information, tasks, or workflows that appear over the user interface. Depending on the kind of Dialog, further interactions may be blocked until the Dialog is acknowledged.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Dialog.html)"
     },
     {
       "class": "component",
@@ -159,12 +137,7 @@
         }
       },
       "name": "Divider",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "19e39f8a-a44b-4bd5-b9b3-32a34a0138d3",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Divider.html)"
     },
     {
       "class": "component",
@@ -179,12 +152,7 @@
         }
       },
       "name": "Link",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Link.html)"
     }
   ]
 }
