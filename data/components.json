@@ -11,9 +11,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<ActionButton>Edit</ActionButton>"
+        }
       },
-      "name": "Action button",
+      "name": "ActionButton",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
@@ -29,9 +31,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<ActionGroup onAction={setAction}><Item key=\"add\">Add</Item><Item key=\"delete\">Delete</Item></ActionGroup>"
+        }
       },
-      "name": "Action button group",
+      "name": "ActionGroup",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
@@ -47,7 +51,9 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Button variant=\"cta\">Save</Button>"
+        }
       },
       "name": "Button",
       "ext-com_adobe-cclib": {
@@ -65,9 +71,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<ButtonGroup><Button variant=\"primary\">Button One</Button><Button variant=\"secondary\">Button Two</Button></ButtonGroup>"
+        }
       },
-      "name": "Checkbox",
+      "name": "ButtonGroup",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
@@ -83,9 +91,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Checkbox>Unsubscribe</Checkbox>"
+        }
       },
-      "name": "Coach mark",
+      "name": "Checkbox",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "7ba6891e-0358-444a-8a04-39111801afd7",
@@ -101,9 +111,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<RadioGroup label=\"Favorite pet\"><Radio value=\"dogs\">Dogs</Radio><Radio value=\"cats\">Cats</Radio></RadioGroup>"
+        }
       },
-      "name": "Color area",
+      "name": "RadioGroup",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
@@ -119,9 +131,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react" "<TextField label=\"Name\" />"
+        }
       },
-      "name": "Color slider",
+      "name": "TextField",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "a0219205-71f6-40d7-8903-f476843845e3",
@@ -137,9 +151,11 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
+        }
       },
-      "name": "Color wheel",
+      "name": "SearchField",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
@@ -147,24 +163,7 @@
         "sync": true
       }
     },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "67082a6b-8e99-48c5-93b3-ab077b2c1cff",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Combo box",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "67082a6b-8e99-48c5-93b3-ab077b2c1cff",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
+
     {
       "class": "component",
       "type": "page",
@@ -407,7 +406,9 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Switch>Label</Switch>"
+        }
       },
       "name": "Switch",
       "ext-com_adobe-cclib": {
