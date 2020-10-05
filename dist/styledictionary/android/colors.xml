@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Mon, 05 Oct 2020 03:33:15 GMT
+-->
+<resources>
+  <color name="spectrum_global_color_static_blue">#ff1473e6</color>
+  <color name="spectrum_global_color_static_gray_50">#ffffffff</color>
+  <color name="spectrum_global_color_static_gray_75">#ffffffff</color>
+  <color name="spectrum_global_color_static_gray_100">#ffffffff</color>
+  <color name="spectrum_global_color_static_seafoam_500">#ff1b959a</color>
+  <color name="spectrum_global_color_static_seafoam_400">#ff20a3a8</color>
+  <color name="spectrum_global_color_static_seafoam_300">#ff23b2b8</color>
+  <color name="spectrum_global_color_static_seafoam_200">#ff26c0c7</color>
+  <color name="spectrum_global_color_static_indigo_200">#ff9090fa</color>
+  <color name="spectrum_global_color_static_seafoam_800">#ff096c6f</color>
+  <color name="spectrum_global_color_static_seafoam_700">#ff0f797d</color>
+  <color name="spectrum_global_color_static_seafoam_600">#ff16878c</color>
+  <color name="spectrum_global_color_static_indigo_700">#ff5151d3</color>
+  <color name="spectrum_global_color_static_indigo_600">#ff5c5ce0</color>
+  <color name="spectrum_global_color_static_indigo_500">#ff6767ec</color>
+  <color name="spectrum_global_color_static_indigo_400">#ff7575f1</color>
+  <color name="spectrum_global_color_static_indigo_300">#ff8282f6</color>
+  <color name="spectrum_global_color_static_purple_600">#ff864ccc</color>
+  <color name="spectrum_global_color_static_purple_500">#ff9256d9</color>
+  <color name="spectrum_global_color_static_purple_400">#ff9d64e1</color>
+  <color name="spectrum_global_color_static_indigo_800">#ff4646c6</color>
+  <color name="spectrum_global_color_static_fuchsia_500">#ffc038cc</color>
+  <color name="spectrum_global_color_static_fuchsia_400">#ffcf3edc</color>
+  <color name="spectrum_global_color_static_purple_800">#ff6f38b1</color>
+  <color name="spectrum_global_color_static_purple_700">#ff7a42bf</color>
+  <color name="spectrum_global_color_static_magenta_300">#ffec5aaa</color>
+  <color name="spectrum_global_color_static_magenta_200">#fff56bb7</color>
+  <color name="spectrum_global_color_static_fuchsia_800">#ff93219e</color>
+  <color name="spectrum_global_color_static_fuchsia_700">#ffa228ad</color>
+  <color name="spectrum_global_color_static_fuchsia_600">#ffb130bd</color>
+  <color name="spectrum_global_color_static_magenta_700">#ffbc1c74</color>
+  <color name="spectrum_global_color_static_magenta_600">#ffca2982</color>
+  <color name="spectrum_global_color_static_magenta_500">#ffd83790</color>
+  <color name="spectrum_global_color_static_magenta_400">#ffe2499d</color>
+  <color name="spectrum_global_color_static_yellow_500">#ffdfbf00</color>
+  <color name="spectrum_global_color_static_yellow_400">#ffedcc00</color>
+  <color name="spectrum_global_color_static_yellow_300">#fffad900</color>
+  <color name="spectrum_global_color_static_yellow_200">#ffffe22e</color>
+  <color name="spectrum_global_color_static_magenta_800">#ffae0e66</color>
+  <color name="spectrum_global_color_static_chartreuse_400">#ff8ede49</color>
+  <color name="spectrum_global_color_static_chartreuse_300">#ff9bec54</color>
+  <color name="spectrum_global_color_static_yellow_800">#ffb79900</color>
+  <color name="spectrum_global_color_static_yellow_700">#ffc4a600</color>
+  <color name="spectrum_global_color_static_yellow_600">#ffd2b200</color>
+  <color name="spectrum_global_color_static_chartreuse_800">#ff6aa834</color>
+  <color name="spectrum_global_color_static_chartreuse_700">#ff73b53a</color>
+  <color name="spectrum_global_color_static_chartreuse_600">#ff7cc33f</color>
+  <color name="spectrum_global_color_static_chartreuse_500">#ff85d044</color>
+  <color name="spectrum_global_color_static_celery_400">#ff4bc35f</color>
+  <color name="spectrum_global_color_static_celery_300">#ff51d267</color>
+  <color name="spectrum_global_color_static_celery_200">#ff58e06f</color>
+  <color name="spectrum_global_color_static_celery_600">#ff3da74e</color>
+  <color name="spectrum_global_color_static_celery_500">#ff44b556</color>
+  <color name="spectrum_global_color_static_red_800">#ffbb121a</color>
+  <color name="spectrum_global_color_static_orange_800">#ffbd640d</color>
+  <color name="spectrum_global_color_static_green_800">#ff107154</color>
+  <color name="spectrum_global_color_static_celery_800">#ff318b40</color>
+  <color name="spectrum_global_color_static_celery_700">#ff379947</color>
+  <color name="spectrum_global_color_static_black">#ff000000</color>
+  <color name="spectrum_global_color_static_white">#ffffffff</color>
+  <color name="spectrum_global_color_static_blue_800">#ff095aba</color>
+  <color name="spectrum_global_color_static_blue_300">#ff4b9cf5</color>
+  <color name="spectrum_global_color_static_blue_200">#ff5aa9fa</color>
+  <color name="spectrum_global_color_static_gray_600">#ff959595</color>
+  <color name="spectrum_global_color_static_gray_500">#ffbcbcbc</color>
+  <color name="spectrum_global_color_static_gray_400">#ffd3d3d3</color>
+  <color name="spectrum_global_color_static_gray_300">#ffeaeaea</color>
+  <color name="spectrum_global_color_static_gray_200">#fff4f4f4</color>
+  <color name="spectrum_global_color_static_blue_400">#ff378ef0</color>
+  <color name="spectrum_global_color_static_gray_900">#ff323232</color>
+  <color name="spectrum_global_color_static_gray_800">#ff505050</color>
+  <color name="spectrum_global_color_static_gray_700">#ff747474</color>
+  <color name="spectrum_global_color_static_red_500">#ffe34850</color>
+  <color name="spectrum_global_color_static_red_400">#ffec5b62</color>
+  <color name="spectrum_global_color_static_blue_700">#ff0d66d0</color>
+  <color name="spectrum_global_color_static_blue_600">#ff1473e6</color>
+  <color name="spectrum_global_color_static_blue_500">#ff2680eb</color>
+  <color name="spectrum_global_color_static_red_700">#ffc9252d</color>
+  <color name="spectrum_global_color_static_red_600">#ffd7373f</color>
+  <color name="spectrum_global_color_static_orange_600">#ffda7b11</color>
+  <color name="spectrum_global_color_static_orange_500">#ffe68619</color>
+  <color name="spectrum_global_color_static_orange_400">#fff29423</color>
+  <color name="spectrum_global_color_static_green_600">#ff268e6c</color>
+  <color name="spectrum_global_color_static_green_500">#ff2d9d78</color>
+  <color name="spectrum_global_color_static_green_400">#ff33ab84</color>
+  <color name="spectrum_global_color_static_orange_700">#ffcb6f10</color>
+  <color name="spectrum_global_color_static_green_700">#ff12805c</color>
+  
+</resources>

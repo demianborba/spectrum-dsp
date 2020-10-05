@@ -1,0 +1,46 @@
+<svg id="Color_slider" data-name="Color slider" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="24" viewBox="0 0 200 24">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0064dc"/>
+      <stop offset="1" stop-color="#459df0"/>
+    </linearGradient>
+  </defs>
+  <g id="Placement_Area" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="200" height="24" stroke="none"/>
+    <rect x="0.5" y="0.5" width="199" height="23" fill="none"/>
+  </g>
+  <g id="Rectangle_84" data-name="Rectangle 84" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1">
+    <rect width="200" height="24" rx="4" stroke="none"/>
+    <rect x="0.5" y="0.5" width="199" height="23" rx="3.5" fill="none"/>
+  </g>
+  <g id="Track" stroke="rgba(44,44,44,0.1)" stroke-width="1" fill="url(#linear-gradient)">
+    <rect width="200" height="24" rx="4" stroke="none"/>
+    <rect x="0.5" y="0.5" width="199" height="23" rx="3.5" fill="none"/>
+  </g>
+  <g id="Handle" transform="translate(0 -64)">
+    <g id="Placement_Area-2" data-name="Placement Area" transform="translate(112 68)" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="16" height="16" stroke="none"/>
+      <rect x="0.5" y="0.5" width="15" height="15" fill="none"/>
+    </g>
+    <g id="Handle_Ring" data-name="Handle Ring" transform="translate(112 68)" fill="rgba(255,0,0,0)" stroke="#fff" stroke-width="2">
+      <circle cx="8" cy="8" r="8" stroke="none"/>
+      <circle cx="8" cy="8" r="7" fill="none"/>
+    </g>
+    <g id="Handle_Border_Outside" data-name="Handle Border Outside" transform="translate(111 67)" fill="rgba(255,0,0,0)" stroke="rgba(0,0,0,0.42)" stroke-width="1">
+      <circle cx="9" cy="9" r="9" stroke="none"/>
+      <circle cx="9" cy="9" r="8.5" fill="none"/>
+    </g>
+    <g id="Handle_Checkers" data-name="Handle Checkers" transform="translate(114 70)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.5" fill="none"/>
+    </g>
+    <g id="Handle_Fill" data-name="Handle Fill" transform="translate(114 70)" fill="#207acf" stroke="rgba(0,0,0,0)" stroke-width="1">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.5" fill="none"/>
+    </g>
+    <g id="Handle_Border_Inside" data-name="Handle Border Inside" transform="translate(114 70)" fill="rgba(255,0,0,0)" stroke="rgba(0,0,0,0.42)" stroke-width="1">
+      <circle cx="6" cy="6" r="6" stroke="none"/>
+      <circle cx="6" cy="6" r="5.5" fill="none"/>
+    </g>
+  </g>
+</svg>

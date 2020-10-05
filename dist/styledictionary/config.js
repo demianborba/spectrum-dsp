@@ -15,6 +15,102 @@ const StyleDictionary = require('style-dictionary').extend({
       ],
       "transformGroup": "css",
       "buildPath": "css/"
+    },
+    "flutter": {
+      "files": [
+        {
+          "destination": "style_dictionary.dart",
+          "format": "flutter/class.dart",
+          "className": "StyleDictionary"
+        }
+      ],
+      "transformGroup": "flutter",
+      "buildPath": "flutter/"
+    },
+    "android": {
+      "files": [
+        {
+          "destination": "font_dimens.xml",
+          "format": "android/fontDimens"
+        },
+        {
+          "destination": "colors.xml",
+          "format": "android/colors"
+        }
+      ],
+      "transformGroup": "android",
+      "buildPath": "android/"
+    },
+    "js": {
+      "files": [
+        {
+          "destination": "tokens.js",
+          "format": "javascript/es6"
+        }
+      ],
+      "transformGroup": "js",
+      "buildPath": "js/"
+    },
+    "ios": {
+      "files": [
+        {
+          "destination": "StyleDictionaryColor.h",
+          "format": "ios/colors.h",
+          "className": "StyleDictionaryColor",
+          "type": "StyleDictionaryColorName",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.h",
+          "format": "ios/static.h",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        },
+        {
+          "destination": "StyleDictionarySize.m",
+          "format": "ios/static.m",
+          "className": "StyleDictionarySize",
+          "type": "float",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          }
+        }
+      ],
+      "transformGroup": "ios",
+      "buildPath": "ios/"
+    },
+    "scss": {
+      "files": [
+        {
+          "destination": "variables.scss",
+          "format": "scss/variables"
+        }
+      ],
+      "transformGroup": "scss",
+      "buildPath": "scss/"
+    },
+    "ios-swift": {
+      "files": [
+        {
+          "destination": "StyleDictionary.swift",
+          "format": "ios-swift/class.swift",
+          "className": "StyleDictionary",
+          "filter": {}
+        }
+      ],
+      "transformGroup": "ios-swift",
+      "buildPath": "ios-swift/"
     }
   }
 });

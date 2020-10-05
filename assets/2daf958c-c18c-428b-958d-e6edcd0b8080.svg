@@ -1,0 +1,11 @@
+<svg id="Radio_button" data-name="Radio button" xmlns="http://www.w3.org/2000/svg" width="129" height="32" viewBox="0 0 129 32">
+  <g id="Placement_Area" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+    <rect width="129" height="32" stroke="none"/>
+    <rect x="0.5" y="0.5" width="128" height="31" fill="none"/>
+  </g>
+  <g id="Radio" transform="translate(0 9)" fill="#fafafa" stroke="#8e8e8e" stroke-width="2">
+    <circle cx="7" cy="7" r="7" stroke="none"/>
+    <circle cx="7" cy="7" r="6" fill="none"/>
+  </g>
+  <text id="Text" transform="translate(24 20)" fill="#4b4b4b" font-size="14" font-family="AdobeClean-Regular, Adobe Clean"><tspan x="0" y="0">Radio button label</tspan></text>
+</svg>

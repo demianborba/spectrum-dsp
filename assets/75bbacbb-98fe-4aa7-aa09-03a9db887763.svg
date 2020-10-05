@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="177" height="56" viewBox="0 0 177 56">
+  <g id="Text_field" data-name="Text field" transform="translate(1)">
+    <g id="Placement_Area" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+      <rect width="176" height="56" stroke="none"/>
+      <rect x="0.5" y="0.5" width="175" height="55" fill="none"/>
+    </g>
+    <text id="Label" transform="translate(0 16)" fill="#6e6e6e" font-size="12" font-family="AdobeClean-Regular, Adobe Clean"><tspan x="0" y="0">Text field label</tspan></text>
+    <g id="Field" transform="translate(0 24)" fill="#fff" stroke="#cacaca" stroke-width="1">
+      <rect width="176" height="32" rx="4" stroke="none"/>
+      <rect x="0.5" y="0.5" width="175" height="31" rx="3.5" fill="none"/>
+    </g>
+    <text id="Text" transform="translate(12 44)" fill="#8e8e8e" font-size="14" font-family="AdobeClean-It, Adobe Clean" font-style="italic"><tspan x="0" y="0">Placeholder text</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly
+  Generated on Mon, 05 Oct 2020 03:33:15 GMT
+-->
+<resources>
+  <dimen name="spectrum_global_font_code_size">256.00sp</dimen>
+  <dimen name="spectrum_global_font_body_size">256.00sp</dimen>
+  <dimen name="spectrum_global_font_detail_size">192.00sp</dimen>
+  <dimen name="spectrum_global_font_heading_size">352.00sp</dimen>
+  
+</resources>

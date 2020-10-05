@@ -1,6 +1,6 @@
 {
   "font": {
-    "Code": {
+    "Spectrum Global Font Code": {
       "family": {
         "value": "Source Code Pro"
       },
@@ -8,15 +8,7 @@
         "value": "Regular"
       }
     },
-    "Heading": {
-      "family": {
-        "value": "Adobe Clean"
-      },
-      "style": {
-        "value": "Bold"
-      }
-    },
-    "Body": {
+    "Spectrum Global Font Body": {
       "family": {
         "value": "Adobe Clean"
       },
@@ -24,7 +16,15 @@
         "value": "Regular"
       }
     },
-    "Detail": {
+    "Spectrum Global Font Detail": {
+      "family": {
+        "value": "Adobe Clean"
+      },
+      "style": {
+        "value": "Bold"
+      }
+    },
+    "Spectrum Global Font Heading": {
       "family": {
         "value": "Adobe Clean"
       },
@@ -35,17 +35,17 @@
   },
   "size": {
     "font": {
-      "Code": {
+      "Spectrum Global Font Code": {
         "value": "16"
       },
-      "Heading": {
-        "value": "{custom.spectrum-global-dimension-static-font-size-500.value}"
-      },
-      "Body": {
+      "Spectrum Global Font Body": {
         "value": "16"
       },
-      "Detail": {
+      "Spectrum Global Font Detail": {
         "value": "12"
+      },
+      "Spectrum Global Font Heading": {
+        "value": "22"
       }
     }
   }

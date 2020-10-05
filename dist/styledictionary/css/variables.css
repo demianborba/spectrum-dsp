@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 04 Oct 2020 23:09:17 GMT
+ * Generated on Mon, 05 Oct 2020 03:33:14 GMT
  */
 
 :root {
@@ -91,18 +91,18 @@
   --spectrum-global-color-static-green-400: #33ab84;
   --spectrum-global-color-static-orange-700: #cb6f10;
   --spectrum-global-color-static-green-700: #12805c;
-  --code-family: Source Code Pro;
-  --code-style: Regular;
-  --heading-family: Adobe Clean;
-  --heading-style: Bold;
-  --body-family: Adobe Clean;
-  --body-style: Regular;
-  --detail-family: Adobe Clean;
-  --detail-style: Bold;
-  --code-size: 16rem;
-  --heading-size: 22rem;
-  --body-size: 16rem;
-  --detail-size: 12rem;
+  --spectrum-global-font-code-family: Source Code Pro;
+  --spectrum-global-font-code-style: Regular;
+  --spectrum-global-font-body-family: Adobe Clean;
+  --spectrum-global-font-body-style: Regular;
+  --spectrum-global-font-detail-family: Adobe Clean;
+  --spectrum-global-font-detail-style: Bold;
+  --spectrum-global-font-heading-family: Adobe Clean;
+  --spectrum-global-font-heading-style: Bold;
+  --spectrum-global-font-code-size: 16rem;
+  --spectrum-global-font-body-size: 16rem;
+  --spectrum-global-font-detail-size: 12rem;
+  --spectrum-global-font-heading-size: 22rem;
   --spectrum-global-dimension-static-font-size-50: 11rem; /* desktop scale: 11 px | mobile scale: 13 px */
   --spectrum-global-dimension-static-font-size-75: 12rem; /* desktop scale: 12 px | mobile scale: 15 px */
   --spectrum-global-dimension-static-font-size-100: 14rem; /* (base size) desktop scale: 14 px | mobile scale: 17 px */
