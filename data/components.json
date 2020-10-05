@@ -32,7 +32,7 @@
       "snippets": {
         "trigger": "",
         "languages": {
-          "react": "<ActionGroup onAction={setAction}><Item key=\"add\">Add</Item><Item key=\"delete\">Delete</Item></ActionGroup>"
+          "react": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
         }
       },
       "name": "ActionGroup",
@@ -67,27 +67,21 @@
       "class": "component",
       "type": "page",
       "tags": [],
-      "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
+      "id": "7ba6891e-0358-444a-8a04-39111801afd7",
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
         "languages": {
-          "react": "<ButtonGroup><Button variant=\"primary\">Button One</Button><Button variant=\"secondary\">Button Two</Button></ButtonGroup>"
+          "react": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
         }
       },
-      "name": "ButtonGroup",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "ButtonGroup"
     },
     {
       "class": "component",
       "type": "page",
       "tags": [],
-      "id": "7ba6891e-0358-444a-8a04-39111801afd7",
+      "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
@@ -98,7 +92,7 @@
       "name": "Checkbox",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "7ba6891e-0358-444a-8a04-39111801afd7",
+        "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
         "last_sync": "2020-10-05T03:33:06.783Z",
         "sync": true
       }
@@ -112,36 +106,10 @@
       "snippets": {
         "trigger": "",
         "languages": {
-          "react": "<RadioGroup label=\"Favorite pet\"><Radio value=\"dogs\">Dogs</Radio><Radio value=\"cats\">Cats</Radio></RadioGroup>"
+          "react": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
         }
       },
-      "name": "RadioGroup",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "a0219205-71f6-40d7-8903-f476843845e3",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {
-          "react" "<TextField label=\"Name\" />"
-        }
-      },
-      "name": "TextField",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "a0219205-71f6-40d7-8903-f476843845e3",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "RadioGroup"
     },
     {
       "class": "component",
@@ -155,13 +123,7 @@
           "react": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
         }
       },
-      "name": "SearchField",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "SearchField"
     },
 
     {
@@ -172,7 +134,9 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<DialogTrigger>\n<ActionButton>Action</ActionButton>\n{(close) => \n(<Dialog>\n<Heading>Title</Heading>\n<Divider />\n<Content>Confirm publish?</Content>\n<ButtonGroup>\n<Button variant=\"secondary\" onPress={close}>Cancel</Button>\n<Button variant=\"cta\" onPress={close}>Confirm</Button>\n</ButtonGroup>\n</Dialog>)}\n</DialogTrigger>"
+        }
       },
       "name": "Dialog",
       "ext-com_adobe-cclib": {
@@ -190,7 +154,9 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Divider />"
+        }
       },
       "name": "Divider",
       "ext-com_adobe-cclib": {
@@ -208,284 +174,14 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Link>\n<a href=\"https://www.adobe.com\" target=\"_blank\">Adobe.com</a>\n</Link>"
+        }
       },
       "name": "Link",
       "ext-com_adobe-cclib": {
         "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
         "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "18b59109-94e6-47fd-b9ef-fd28e7a3e226",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Meter",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "18b59109-94e6-47fd-b9ef-fd28e7a3e226",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "4e2d541b-c033-41bb-81da-87a0bae6f646",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Picker",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "4e2d541b-c033-41bb-81da-87a0bae6f646",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "b8402236-e00c-4ba3-afde-53a2b3521458",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Picker menu",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "b8402236-e00c-4ba3-afde-53a2b3521458",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "71e3a2e7-0118-414a-a271-2d3c96e2b33d",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Progress (bar)",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "71e3a2e7-0118-414a-a271-2d3c96e2b33d",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "e772a996-8ed5-4cc7-bf34-042e64d85adb",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Progress (circle)",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "e772a996-8ed5-4cc7-bf34-042e64d85adb",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "d794b46c-ea34-40cb-b2ce-f0ded0e59dfd",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Quick actions",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "d794b46c-ea34-40cb-b2ce-f0ded0e59dfd",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "2daf958c-c18c-428b-958d-e6edcd0b8080",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Radio button",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "2daf958c-c18c-428b-958d-e6edcd0b8080",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "e8ce8a55-e9a2-4fe7-b0df-3c0a410a74cd",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Rating",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "e8ce8a55-e9a2-4fe7-b0df-3c0a410a74cd",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "ec924b2c-0925-4729-8eb8-a102b2987d72",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Slider",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ec924b2c-0925-4729-8eb8-a102b2987d72",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "1119d191-b36b-44a4-9971-66f9e3cee42c",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Status Light",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "1119d191-b36b-44a4-9971-66f9e3cee42c",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "fd057063-3c11-480a-8305-c58842eac1a3",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {
-          "react": "<Switch>Label</Switch>"
-        }
-      },
-      "name": "Switch",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "fd057063-3c11-480a-8305-c58842eac1a3",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "1fdacd08-3f05-41aa-9503-3808494b9106",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Tag",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "1fdacd08-3f05-41aa-9503-3808494b9106",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "75bbacbb-98fe-4aa7-aa09-03a9db887763",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Text field",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "75bbacbb-98fe-4aa7-aa09-03a9db887763",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "34c95419-71d5-4cb5-8d40-cecaa609d3ac",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Toast",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "34c95419-71d5-4cb5-8d40-cecaa609d3ac",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "337c69ee-5f6c-4ce0-9382-ab67a056cfd7",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Tooltip",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "337c69ee-5f6c-4ce0-9382-ab67a056cfd7",
         "last_sync": "2020-10-05T03:33:06.783Z",
         "sync": true
       }
