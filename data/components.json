@@ -11,9 +11,9 @@
       "related_entity_ids": [],
       "snippets": {
         "languages": {
-          "css": "<button class=\"spectrum-ActionButton\">\n<span class=\"spectrum-ActionButton-label\">Edit</span>\n</button>",
-          "html": "<sp-action-button>\nDo action\n</sp-action-button>",
-          "java": "<com.adobe.spectrum.controls.SpectrumActionButton\nstyle=\"?attr/adobe_spectrum_standardActionButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Sample text\"\nandroid:drawableLeft=\"@drawable/example\"/>",
+          "css": "<button class=\"spectrum-ActionButton\">\n<span class=\"spectrum-ActionButton-label\">Action</span>\n</button>",
+          "html": "<sp-action-button>\nAction\n</sp-action-button>",
+          "java": "<com.adobe.spectrum.controls.SpectrumActionButton\nstyle=\"?attr/adobe_spectrum_standardActionButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Action\"\nandroid:drawableLeft=\"@drawable/example\"/>",
           "javascriptreact": "<ActionButton>${1:Action}</ActionButton>"
         },
         "trigger": "action-button"
@@ -29,8 +29,8 @@
       "related_entity_ids": [],
       "snippets": {
         "languages": {
-          "css": "<div class=\"spectrum-ActionGroup\">\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Edit</span>\n</button>\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Copy</span>\n</button>\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item is-selected\">\n<span class=\"spectrum-ActionButton-label\">Delete</span>\n</button>\n</div>",
-          "html": "<sp-button-group>\n<sp-action-button>\nDo action\n</sp-action-button>\n<sp-action-button selected>\nDo action\n</sp-action-button>\n<sp-action-button disabled>\nDo action\n</sp-action-button>\n</sp-button-group>",
+          "css": "<div class=\"spectrum-ActionGroup\">\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Add</span>\n</button>\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Delete</span>\n</button>\n</div>",
+          "html": "<sp-button-group>\n<sp-action-button>\nAdd\n</sp-action-button>\n<sp-action-button>\nDelete\n</sp-action-button>\n</sp-button-group>",
           "javascriptreact": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
         },
         "trigger": "action-group"
@@ -47,9 +47,9 @@
       "snippets": {
         "languages": {
           "css": "<button class=\"spectrum-Button spectrum-Button--cta\">\n<span class=\"spectrum-Button-label\">Button</span>\n</button>",
-          "html": "<sp-button variant=\"primary\">Action</sp-button>",
+          "html": "<sp-button variant=\"primary\">Button</sp-button>",
           "java": "<com.adobe.spectrum.controls.SpectrumButton\nstyle=\"?attr/adobe_spectrum_secondaryButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Button\" />",
-          "javascriptreact": "<Button variant=\"cta\">Save</Button>"
+          "javascriptreact": "<Button variant=\"cta\">Button</Button>"
         },
         "trigger": "button"
       },
