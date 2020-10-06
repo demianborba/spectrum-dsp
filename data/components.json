@@ -11,15 +11,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<ActionButton>Edit</ActionButton>"
+        }
       },
-      "name": "Action button",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "ActionButton",
+      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)"
     },
     {
       "class": "component",
@@ -29,15 +26,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
+        }
       },
-      "name": "Action button group",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "ActionGroup",
+      "description": "## ActionGroup\n\nAn ActionGroup is a grouping of ActionButtons that are related to one another.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionGroup.html)"
     },
     {
       "class": "component",
@@ -47,33 +41,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Button variant=\"cta\">Save</Button>"
+        }
       },
       "name": "Button",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Checkbox",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Button.html)"
     },
     {
       "class": "component",
@@ -83,15 +56,27 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
+        }
       },
-      "name": "Coach mark",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "7ba6891e-0358-444a-8a04-39111801afd7",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "ButtonGroup",
+      "description": "## ButtonGroup\n\nButtonGroup handles overflow for a grouping of buttons whose actions are related to each other.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ButtonGroup.html)"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "",
+        "languages": {
+          "react": "<Checkbox>Unsubscribe</Checkbox>"
+        }
+      },
+      "name": "Checkbox",
+      "description": "## Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Checkbox.html)"
     },
     {
       "class": "component",
@@ -101,33 +86,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
+        }
       },
-      "name": "Color area",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "a0219205-71f6-40d7-8903-f476843845e3",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Color slider",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "a0219205-71f6-40d7-8903-f476843845e3",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "RadioGroup",
+      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)"
     },
     {
       "class": "component",
@@ -137,34 +101,14 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
+        }
       },
-      "name": "Color wheel",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "name": "SearchField",
+      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)"
     },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "67082a6b-8e99-48c5-93b3-ab077b2c1cff",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Combo box",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "67082a6b-8e99-48c5-93b3-ab077b2c1cff",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
+
     {
       "class": "component",
       "type": "page",
@@ -173,15 +117,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<DialogTrigger>\n<ActionButton>Action</ActionButton>\n{(close) => \n(<Dialog>\n<Heading>Title</Heading>\n<Divider />\n<Content>Confirm publish?</Content>\n<ButtonGroup>\n<Button variant=\"secondary\" onPress={close}>Cancel</Button>\n<Button variant=\"cta\" onPress={close}>Confirm</Button>\n</ButtonGroup>\n</Dialog>)}\n</DialogTrigger>"
+        }
       },
       "name": "Dialog",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ec1db177-58ba-4612-bbdc-4938ba337ff7",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Dialog\n\nDialogs are windows containing contextual information, tasks, or workflows that appear over the user interface. Depending on the kind of Dialog, further interactions may be blocked until the Dialog is acknowledged.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Dialog.html)"
     },
     {
       "class": "component",
@@ -191,15 +132,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Divider />"
+        }
       },
       "name": "Divider",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "19e39f8a-a44b-4bd5-b9b3-32a34a0138d3",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Divider.html)"
     },
     {
       "class": "component",
@@ -209,285 +147,12 @@
       "related_entity_ids": [],
       "snippets": {
         "trigger": "",
-        "languages": {}
+        "languages": {
+          "react": "<Link>\n<a href=\"https://www.adobe.com\" target=\"_blank\">Adobe.com</a>\n</Link>"
+        }
       },
       "name": "Link",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "18b59109-94e6-47fd-b9ef-fd28e7a3e226",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Meter",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "18b59109-94e6-47fd-b9ef-fd28e7a3e226",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "4e2d541b-c033-41bb-81da-87a0bae6f646",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Picker",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "4e2d541b-c033-41bb-81da-87a0bae6f646",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "b8402236-e00c-4ba3-afde-53a2b3521458",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Picker menu",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "b8402236-e00c-4ba3-afde-53a2b3521458",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "71e3a2e7-0118-414a-a271-2d3c96e2b33d",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Progress (bar)",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "71e3a2e7-0118-414a-a271-2d3c96e2b33d",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "e772a996-8ed5-4cc7-bf34-042e64d85adb",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Progress (circle)",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "e772a996-8ed5-4cc7-bf34-042e64d85adb",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "d794b46c-ea34-40cb-b2ce-f0ded0e59dfd",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Quick actions",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "d794b46c-ea34-40cb-b2ce-f0ded0e59dfd",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "2daf958c-c18c-428b-958d-e6edcd0b8080",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Radio button",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "2daf958c-c18c-428b-958d-e6edcd0b8080",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "e8ce8a55-e9a2-4fe7-b0df-3c0a410a74cd",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Rating",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "e8ce8a55-e9a2-4fe7-b0df-3c0a410a74cd",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "ec924b2c-0925-4729-8eb8-a102b2987d72",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Slider",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "ec924b2c-0925-4729-8eb8-a102b2987d72",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "1119d191-b36b-44a4-9971-66f9e3cee42c",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Status Light",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "1119d191-b36b-44a4-9971-66f9e3cee42c",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "fd057063-3c11-480a-8305-c58842eac1a3",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Switch",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "fd057063-3c11-480a-8305-c58842eac1a3",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "1fdacd08-3f05-41aa-9503-3808494b9106",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Tag",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "1fdacd08-3f05-41aa-9503-3808494b9106",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "75bbacbb-98fe-4aa7-aa09-03a9db887763",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Text field",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "75bbacbb-98fe-4aa7-aa09-03a9db887763",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "34c95419-71d5-4cb5-8d40-cecaa609d3ac",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Toast",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "34c95419-71d5-4cb5-8d40-cecaa609d3ac",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "337c69ee-5f6c-4ce0-9382-ab67a056cfd7",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {}
-      },
-      "name": "Tooltip",
-      "ext-com_adobe-cclib": {
-        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
-        "id": "337c69ee-5f6c-4ce0-9382-ab67a056cfd7",
-        "last_sync": "2020-10-05T03:33:06.783Z",
-        "sync": true
-      }
+      "description": "## Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Link.html)"
     }
   ]
 }
