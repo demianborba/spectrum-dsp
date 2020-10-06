@@ -28,7 +28,7 @@
       {
         "export_tokens": true,
         "ext-com_adobe_xd-styledictionary_id": "css",
-        "label": "CSS",
+        "label": "Spectrum CSS",
         "snippet_id": "css",
         "syntax": "text/css"
       },
@@ -65,14 +65,8 @@
       },
       {
         "export_tokens": false,
-        "label": "Spectrum CSS",
-        "snippet_id": "html",
-        "syntax": "text/html"
-      },
-      {
-        "export_tokens": false,
         "label": "Spectrum Web Components",
-        "snippet_id": "htmlcomponents",
+        "snippet_id": "html",
         "syntax": "text/html"
       },
       {
