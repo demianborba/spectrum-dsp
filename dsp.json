@@ -84,7 +84,7 @@
         "ext-com_adobe_xd-styledictionary_id": "js"
       },
       {
-        "label": "Spectrum React",
+        "label": "React Spectrum",
         "export_tokens": false,
         "snippet_id": "javascriptreact",
         "syntax": "text/typescript-jsx"
