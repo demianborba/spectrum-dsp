@@ -84,10 +84,10 @@
         "ext-com_adobe_xd-styledictionary_id": "js"
       },
       {
-        "label": "JavaScript React",
+        "label": "Spectrum React",
         "export_tokens": false,
         "snippet_id": "javascriptreact",
-        "syntax": "text/jsx"
+        "syntax": "text/typescript-jsx"
       },
       {
         "label": "Less",
@@ -191,7 +191,7 @@
     ],
     "name": "Adobe Spectrum DSP",
     "package_version": "0.0.1",
-    "snippet_trigger_prefix": "xd-"
+    "snippet_trigger_prefix": "spectrum-"
   },
   "import": [
     {

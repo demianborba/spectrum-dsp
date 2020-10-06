@@ -10,13 +10,13 @@
       "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "action-button",
         "languages": {
-          "react": "<ActionButton>Edit</ActionButton>"
+          "javascriptreact": "<ActionButton>${1:Action}</ActionButton>"
         }
       },
       "name": "ActionButton",
-      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)"
+      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n```js\n<ActionButton>Action</ActionButton>\n```\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)"
     },
     {
       "class": "component",
@@ -25,9 +25,9 @@
       "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "action-group",
         "languages": {
-          "react": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
+          "javascriptreact": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
         }
       },
       "name": "ActionGroup",
@@ -40,9 +40,9 @@
       "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "button",
         "languages": {
-          "react": "<Button variant=\"cta\">Save</Button>"
+          "javascriptreact": "<Button variant=\"cta\">Save</Button>"
         }
       },
       "name": "Button",
@@ -55,9 +55,9 @@
       "id": "7ba6891e-0358-444a-8a04-39111801afd7",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "button-group",
         "languages": {
-          "react": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
+          "javascriptreact": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
         }
       },
       "name": "ButtonGroup",
@@ -70,9 +70,9 @@
       "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "checkbox",
         "languages": {
-          "react": "<Checkbox>Unsubscribe</Checkbox>"
+          "javascriptreact": "<Checkbox>Unsubscribe</Checkbox>"
         }
       },
       "name": "Checkbox",
@@ -82,43 +82,12 @@
       "class": "component",
       "type": "page",
       "tags": [],
-      "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {
-          "react": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
-        }
-      },
-      "name": "RadioGroup",
-      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)"
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "",
-        "languages": {
-          "react": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
-        }
-      },
-      "name": "SearchField",
-      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)"
-    },
-
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
       "id": "ec1db177-58ba-4612-bbdc-4938ba337ff7",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "dialog-trigger",
         "languages": {
-          "react": "<DialogTrigger>\n<ActionButton>Action</ActionButton>\n{(close) => \n(<Dialog>\n<Heading>Title</Heading>\n<Divider />\n<Content>Confirm publish?</Content>\n<ButtonGroup>\n<Button variant=\"secondary\" onPress={close}>Cancel</Button>\n<Button variant=\"cta\" onPress={close}>Confirm</Button>\n</ButtonGroup>\n</Dialog>)}\n</DialogTrigger>"
+          "javascriptreact": "<DialogTrigger>\n<ActionButton>Action</ActionButton>\n{(close) => \n(<Dialog>\n<Heading>Title</Heading>\n<Divider />\n<Content>Confirm publish?</Content>\n<ButtonGroup>\n<Button variant=\"secondary\" onPress={close}>Cancel</Button>\n<Button variant=\"cta\" onPress={close}>Confirm</Button>\n</ButtonGroup>\n</Dialog>)}\n</DialogTrigger>"
         }
       },
       "name": "Dialog",
@@ -131,9 +100,9 @@
       "id": "19e39f8a-a44b-4bd5-b9b3-32a34a0138d3",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "divider",
         "languages": {
-          "react": "<Divider />"
+          "javascriptreact": "<Divider />"
         }
       },
       "name": "Divider",
@@ -146,13 +115,43 @@
       "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "",
+        "trigger": "link",
         "languages": {
-          "react": "<Link>\n<a href=\"https://www.adobe.com\" target=\"_blank\">Adobe.com</a>\n</Link>"
+          "javascriptreact": "<Link>\n<a href=\"https://www.adobe.com\" target=\"_blank\">Adobe.com</a>\n</Link>"
         }
       },
       "name": "Link",
       "description": "## Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Link.html)"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "radio-group",
+        "languages": {
+          "javascriptreact": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
+        }
+      },
+      "name": "RadioGroup",
+      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "search-field",
+        "languages": {
+          "javascriptreact": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
+        }
+      },
+      "name": "SearchField",
+      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)"
     }
   ]
 }
