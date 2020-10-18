@@ -5,153 +5,161 @@
   "entities": [
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n```js\n<ActionButton>Action</ActionButton>\n```\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)",
       "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "action-button",
-        "languages": {
-          "javascriptreact": "<ActionButton>${1:Action}</ActionButton>"
-        }
-      },
       "name": "ActionButton",
-      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n```js\n<ActionButton>Action</ActionButton>\n```\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)"
+      "related_entity_ids": [],
+      "snippets": {
+        "languages": {
+          "css": "<button class=\"spectrum-ActionButton\">\n<span class=\"spectrum-ActionButton-label\">Action</span>\n</button>",
+          "html": "<sp-action-button>\nAction\n</sp-action-button>",
+          "java": "<com.adobe.spectrum.controls.SpectrumActionButton\nstyle=\"?attr/adobe_spectrum_standardActionButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Action\"\nandroid:drawableLeft=\"@drawable/example\"/>",
+          "javascriptreact": "<ActionButton>${1:Action}</ActionButton>"
+        },
+        "trigger": "action-button"
+      },
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## ActionGroup\n\nAn ActionGroup is a grouping of ActionButtons that are related to one another.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionGroup.html)",
       "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
-      "related_entity_ids": [],
-      "snippets": {
-        "trigger": "action-group",
-        "languages": {
-          "javascriptreact": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
-        }
-      },
       "name": "ActionGroup",
-      "description": "## ActionGroup\n\nAn ActionGroup is a grouping of ActionButtons that are related to one another.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionGroup.html)"
-    },
-    {
-      "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "button",
         "languages": {
-          "javascriptreact": "<Button variant=\"cta\">Save</Button>"
-        }
+          "css": "<div class=\"spectrum-ActionGroup\">\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Add</span>\n</button>\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Delete</span>\n</button>\n</div>",
+          "html": "<sp-button-group>\n<sp-action-button>\nAdd\n</sp-action-button>\n<sp-action-button>\nDelete\n</sp-action-button>\n</sp-button-group>",
+          "javascriptreact": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
+        },
+        "trigger": "action-group"
       },
-      "name": "Button",
-      "description": "## Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Button.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
-      "id": "7ba6891e-0358-444a-8a04-39111801afd7",
+      "description": "## Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Button.html)",
+      "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
+      "name": "Button",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "button-group",
+        "languages": {
+          "css": "<button class=\"spectrum-Button spectrum-Button--cta\">\n<span class=\"spectrum-Button-label\">Button</span>\n</button>",
+          "html": "<sp-button variant=\"primary\">Button</sp-button>",
+          "java": "<com.adobe.spectrum.controls.SpectrumButton\nstyle=\"?attr/adobe_spectrum_secondaryButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Button\" />",
+          "javascriptreact": "<Button variant=\"cta\">Button</Button>"
+        },
+        "trigger": "button"
+      },
+      "tags": [],
+      "type": "page"
+    },
+    {
+      "class": "component",
+      "description": "## ButtonGroup\n\nButtonGroup handles overflow for a grouping of buttons whose actions are related to each other.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ButtonGroup.html)",
+      "id": "7ba6891e-0358-444a-8a04-39111801afd7",
+      "name": "ButtonGroup",
+      "related_entity_ids": [],
+      "snippets": {
         "languages": {
           "javascriptreact": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
-        }
+        },
+        "trigger": "button-group"
       },
-      "name": "ButtonGroup",
-      "description": "## ButtonGroup\n\nButtonGroup handles overflow for a grouping of buttons whose actions are related to each other.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ButtonGroup.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Checkbox.html)",
       "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
+      "name": "Checkbox",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "checkbox",
         "languages": {
           "javascriptreact": "<Checkbox>Unsubscribe</Checkbox>"
-        }
+        },
+        "trigger": "checkbox"
       },
-      "name": "Checkbox",
-      "description": "## Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Checkbox.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## Dialog\n\nDialogs are windows containing contextual information, tasks, or workflows that appear over the user interface. Depending on the kind of Dialog, further interactions may be blocked until the Dialog is acknowledged.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Dialog.html)",
       "id": "ec1db177-58ba-4612-bbdc-4938ba337ff7",
+      "name": "Dialog",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "dialog-trigger",
         "languages": {
           "javascriptreact": "<DialogTrigger>\n<ActionButton>Action</ActionButton>\n{(close) => \n(<Dialog>\n<Heading>Title</Heading>\n<Divider />\n<Content>Confirm publish?</Content>\n<ButtonGroup>\n<Button variant=\"secondary\" onPress={close}>Cancel</Button>\n<Button variant=\"cta\" onPress={close}>Confirm</Button>\n</ButtonGroup>\n</Dialog>)}\n</DialogTrigger>"
-        }
+        },
+        "trigger": "dialog-trigger"
       },
-      "name": "Dialog",
-      "description": "## Dialog\n\nDialogs are windows containing contextual information, tasks, or workflows that appear over the user interface. Depending on the kind of Dialog, further interactions may be blocked until the Dialog is acknowledged.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Dialog.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Divider.html)",
       "id": "19e39f8a-a44b-4bd5-b9b3-32a34a0138d3",
+      "name": "Divider",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "divider",
         "languages": {
           "javascriptreact": "<Divider />"
-        }
+        },
+        "trigger": "divider"
       },
-      "name": "Divider",
-      "description": "## Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Divider.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Link.html)",
       "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
+      "name": "Link",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "link",
         "languages": {
           "javascriptreact": "<Link>\n<a href=\"https://www.adobe.com\" target=\"_blank\">Adobe.com</a>\n</Link>"
-        }
+        },
+        "trigger": "link"
       },
-      "name": "Link",
-      "description": "## Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Link.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)",
       "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
+      "name": "RadioGroup",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "radio-group",
         "languages": {
           "javascriptreact": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
-        }
+        },
+        "trigger": "radio-group"
       },
-      "name": "RadioGroup",
-      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)"
+      "tags": [],
+      "type": "page"
     },
     {
       "class": "component",
-      "type": "page",
-      "tags": [],
+      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)",
       "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
+      "name": "SearchField",
       "related_entity_ids": [],
       "snippets": {
-        "trigger": "search-field",
         "languages": {
           "javascriptreact": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
-        }
+        },
+        "trigger": "search-field"
       },
-      "name": "SearchField",
-      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)"
+      "tags": [],
+      "type": "page"
     }
   ]
 }
