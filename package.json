@@ -1,6 +1,6 @@
 {
   "name": "adobe-spectrum-dsp",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Adobe Spectrum Design System Package (DSP) beta ",
   "main": "index.js",
   "scripts": {
