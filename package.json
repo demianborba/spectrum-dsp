@@ -1,0 +1,27 @@
+{
+  "name": "adobe-spectrum-dsp",
+  "version": "0.1.2",
+  "description": "Adobe Spectrum Design System Package (DSP) beta ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demianborba/spectrum-dsp.git"
+  },
+  "keywords": [
+    "adobe",
+    "spectrum",
+    "adobe",
+    "spectrum",
+    "react",
+    "spectrum"
+  ],
+  "author": "Demian Borba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demianborba/spectrum-dsp/issues"
+  },
+  "homepage": "https://github.com/demianborba/spectrum-dsp#readme"
+}

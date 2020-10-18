@@ -3,7 +3,7 @@
 // style_dictionary.dart
 //
 // Do not edit directly
-// Generated on Tue, 06 Oct 2020 03:34:33 GMT
+// Generated on Sat, 17 Oct 2020 22:01:09 GMT
 //
 
 
