@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 18 Oct 2020 21:23:38 GMT
+ * Generated on Sun, 18 Oct 2020 22:39:55 GMT
  */
 
 export const SpectrumGlobalColorStaticBlue = "#1473e6";

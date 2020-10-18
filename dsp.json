@@ -190,7 +190,7 @@
       }
     ],
     "name": "Adobe Spectrum DSP",
-    "package_version": "0.1.4",
+    "package_version": "0.1.5",
     "snippet_trigger_prefix": "spectrum-"
   },
   "import": [
