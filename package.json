@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/demianborba/spectrum-dsp/issues"
   },
-  "homepage": "https://github.com/demianborba/spectrum-dsp#readme"
+  "homepage": "https://github.com/demianborba/spectrum-dsp#readme",
+  "dependencies": {
+    "style-dictionary": "^2.10.2"
+  }
 }
