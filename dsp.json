@@ -8,24 +8,6 @@
     "build_tool": "StyleDictionary",
     "languages": [
       {
-        "export_tokens": false,
-        "label": "Coffeescript",
-        "snippet_id": "coffeescript",
-        "syntax": "text/x-coffeescript"
-      },
-      {
-        "export_tokens": false,
-        "label": "C",
-        "snippet_id": "c",
-        "syntax": "text/x-csrc"
-      },
-      {
-        "export_tokens": false,
-        "label": "C#",
-        "snippet_id": "csharp",
-        "syntax": "text/x-csharp"
-      },
-      {
         "export_tokens": true,
         "ext-com_adobe_xd-styledictionary_id": "css",
         "label": "Spectrum CSS",
@@ -38,30 +20,6 @@
         "label": "Flutter (Dart)",
         "snippet_id": "dart",
         "syntax": "application/vnd.dart"
-      },
-      {
-        "export_tokens": false,
-        "label": "F#",
-        "snippet_id": "fsharp",
-        "syntax": "text/x-csharp"
-      },
-      {
-        "export_tokens": false,
-        "label": "Go",
-        "snippet_id": "go",
-        "syntax": "text/x-go"
-      },
-      {
-        "export_tokens": false,
-        "label": "Groovy",
-        "snippet_id": "groovy",
-        "syntax": "text/x-groovy"
-      },
-      {
-        "export_tokens": false,
-        "label": "Handlebars",
-        "snippet_id": "handlebars",
-        "syntax": "text/x-handlebars-template"
       },
       {
         "export_tokens": false,
@@ -90,59 +48,11 @@
         "syntax": "text/typescript-jsx"
       },
       {
-        "export_tokens": false,
-        "label": "Less",
-        "snippet_id": "less",
-        "syntax": "text/x-less"
-      },
-      {
-        "export_tokens": false,
-        "label": "Lua",
-        "snippet_id": "lua",
-        "syntax": "text/x-lua"
-      },
-      {
         "export_tokens": true,
         "ext-com_adobe_xd-styledictionary_id": "ios",
         "label": "iOS (Objective-C)",
         "snippet_id": "objective-c",
         "syntax": "text/x-objectivec"
-      },
-      {
-        "export_tokens": false,
-        "label": "Objective-C++",
-        "snippet_id": "objective-cpp",
-        "syntax": "text/x-c++src"
-      },
-      {
-        "export_tokens": false,
-        "label": "Pug",
-        "snippet_id": "jade",
-        "syntax": "text/html"
-      },
-      {
-        "export_tokens": false,
-        "label": "Python",
-        "snippet_id": "python",
-        "syntax": "text/x-python"
-      },
-      {
-        "export_tokens": false,
-        "label": "Razor (cshtml)",
-        "snippet_id": "razor",
-        "syntax": "text/x-csharp"
-      },
-      {
-        "export_tokens": false,
-        "label": "Ruby",
-        "snippet_id": "ruby",
-        "syntax": "text/x-ruby"
-      },
-      {
-        "export_tokens": false,
-        "label": "Rust",
-        "snippet_id": "rust",
-        "syntax": "text/x-rustsrc"
       },
       {
         "export_tokens": true,
@@ -152,45 +62,15 @@
         "syntax": "text/x-sass"
       },
       {
-        "export_tokens": false,
-        "label": "SASS",
-        "snippet_id": "sass",
-        "syntax": "text/x-sass"
-      },
-      {
-        "export_tokens": false,
-        "label": "ShaderLab",
-        "snippet_id": "shaderlab",
-        "syntax": "text/x-vertex"
-      },
-      {
         "export_tokens": true,
         "ext-com_adobe_xd-styledictionary_id": "ios-swift",
         "label": "iOS (Swift)",
         "snippet_id": "swift",
         "syntax": "text/x-swift"
-      },
-      {
-        "export_tokens": false,
-        "label": "TypeScript",
-        "snippet_id": "typescript",
-        "syntax": "text/typescript"
-      },
-      {
-        "export_tokens": false,
-        "label": "TypeScript React",
-        "snippet_id": "typescriptreact",
-        "syntax": "text/typescript-jsx"
-      },
-      {
-        "export_tokens": false,
-        "label": "Markdown",
-        "snippet_id": "markdown",
-        "syntax": "text/x-markdown"
       }
     ],
     "name": "Adobe Spectrum DSP",
-    "package_version": "0.1.5",
+    "package_version": "0.1.6",
     "snippet_trigger_prefix": "spectrum-"
   },
   "import": [

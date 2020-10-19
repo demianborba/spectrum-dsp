@@ -5,161 +5,652 @@
   "entities": [
     {
       "class": "component",
-      "description": "## ActionButton\n\nActionButtons allow users to perform an action. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n```js\n<ActionButton>Action</ActionButton>\n```\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionButton.html)",
-      "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
-      "name": "ActionButton",
+      "type": "page",
+      "tags": [],
+      "id": "303abcc3-f03d-46a7-accc-79b538324adc",
       "related_entity_ids": [],
       "snippets": {
+        "trigger": "action-button",
         "languages": {
-          "css": "<button class=\"spectrum-ActionButton\">\n<span class=\"spectrum-ActionButton-label\">Action</span>\n</button>",
-          "html": "<sp-action-button>\nAction\n</sp-action-button>",
-          "java": "<com.adobe.spectrum.controls.SpectrumActionButton\nstyle=\"?attr/adobe_spectrum_standardActionButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Action\"\nandroid:drawableLeft=\"@drawable/example\"/>",
-          "javascriptreact": "<ActionButton>${1:Action}</ActionButton>"
-        },
-        "trigger": "action-button"
+          "css": "<button class=\"spectrum-ActionButton\">\n  <span class=\"spectrum-ActionButton-label\">Edit</span>\n</button>",
+          "javascriptreact": "<ActionButton>\n  <Edit />\n  <Text>Edit</Text>\n</ActionButton>"
+        }
       },
-      "tags": [],
-      "type": "page"
+      "name": "Action button",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "9bd08fe4-71bb-40c1-82cb-57a42087acf5",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Action button\n\nAction buttons allow users to perform an action or mark a selection. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n[View full documentation](https://spectrum.adobe.com/page/action-button/)",
+      "last_updated": "2020-10-19T03:45:56.694Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## ActionGroup\n\nAn ActionGroup is a grouping of ActionButtons that are related to one another.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ActionGroup.html)",
-      "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
-      "name": "ActionGroup",
+      "type": "page",
+      "tags": [],
+      "id": "82cd9107-498d-42b2-bec1-02058b04bbbb",
       "related_entity_ids": [],
       "snippets": {
+        "trigger": "action-group",
         "languages": {
-          "css": "<div class=\"spectrum-ActionGroup\">\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Add</span>\n</button>\n<button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n<span class=\"spectrum-ActionButton-label\">Delete</span>\n</button>\n</div>",
-          "html": "<sp-button-group>\n<sp-action-button>\nAdd\n</sp-action-button>\n<sp-action-button>\nDelete\n</sp-action-button>\n</sp-button-group>",
-          "javascriptreact": "<ActionGroup onAction={setAction}>\n<Item key=\"add\">Add</Item>\n<Item key=\"delete\">Delete</Item>\n</ActionGroup>"
-        },
-        "trigger": "action-group"
+          "css": "<div class=\"spectrum-ActionGroup\">\n  <button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n    <span class=\"spectrum-ActionButton-label\">Edit</span>\n  </button>\n  <button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n    <span class=\"spectrum-ActionButton-label\">Copy</span>\n  </button>\n  <button class=\"spectrum-ActionButton spectrum-ActionGroup-item is-selected\">\n    <span class=\"spectrum-ActionButton-label\">Delete</span>\n  </button>\n</div>",
+          "javascriptreact": "function Example() {\n  let [action, setAction] = React.useState();\n\n  return (\n    <>\n      <ActionGroup onAction={setAction}>\n        <Item key=\"add\">Add</Item>\n        <Item key=\"delete\">Delete</Item>\n        <Item key=\"edit\">Edit</Item>\n      </ActionGroup>\n      <p>Action: {action}</p>\n    </>\n  );\n}"
+        }
       },
-      "tags": [],
-      "type": "page"
+      "name": "Action group",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "1c5fe9ef-ab30-4e5e-8b27-175409239b8e",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Action group\n\nAn action group is a grouping of action buttons that are related to each other.\n\n[View full documentation](https://spectrum.adobe.com/page/action-group/)",
+      "last_updated": "2020-10-19T03:44:12.780Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Button.html)",
-      "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
+      "type": "page",
+      "tags": [],
+      "id": "d9a1df6b-5389-470f-87ec-bce0bd7d54fa",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "button",
+        "languages": {
+          "css": "<button class=\"spectrum-Button spectrum-Button--cta\">\n  <span class=\"spectrum-Button-label\">Get started</span>\n</button>",
+          "html": "<sp-button>Get started</sp-button>",
+          "javascriptreact": "<Button variant=\"cta\">Get started</Button>"
+        }
+      },
       "name": "Button",
-      "related_entity_ids": [],
-      "snippets": {
-        "languages": {
-          "css": "<button class=\"spectrum-Button spectrum-Button--cta\">\n<span class=\"spectrum-Button-label\">Button</span>\n</button>",
-          "html": "<sp-button variant=\"primary\">Button</sp-button>",
-          "java": "<com.adobe.spectrum.controls.SpectrumButton\nstyle=\"?attr/adobe_spectrum_secondaryButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Button\" />",
-          "javascriptreact": "<Button variant=\"cta\">Button</Button>"
-        },
-        "trigger": "button"
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "7f6f8891-468d-4af1-9a4f-edad592c1970",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
       },
-      "tags": [],
-      "type": "page"
+      "description": "# Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n[View full documentation](https://spectrum.adobe.com/page/button/)",
+      "last_updated": "2020-10-19T03:42:47.732Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## ButtonGroup\n\nButtonGroup handles overflow for a grouping of buttons whose actions are related to each other.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/ButtonGroup.html)",
-      "id": "7ba6891e-0358-444a-8a04-39111801afd7",
-      "name": "ButtonGroup",
+      "type": "page",
+      "tags": [],
+      "id": "d192c086-14ab-4dca-917c-30c74b8a0ef2",
       "related_entity_ids": [],
       "snippets": {
+        "trigger": "button-group",
         "languages": {
-          "javascriptreact": "<ButtonGroup>\n<Button variant=\"primary\">Button One</Button>\n<Button variant=\"secondary\">Button Two</Button>\n</ButtonGroup>"
-        },
-        "trigger": "button-group"
+          "css": "<div class=\"spectrum-ButtonGroup\">\n  <button class=\"spectrum-Button spectrum-Button--secondary spectrum-ButtonGroup-item\">\n    <span class=\"spectrum-Button-label\">No, thanks</span>\n  </button>\n  <button class=\"spectrum-Button spectrum-Button--secondary spectrum-ButtonGroup-item\">\n    <span class=\"spectrum-Button-label\">Remind me later</span>\n  </button>\n  <button class=\"spectrum-Button spectrum-Button--primary spectrum-ButtonGroup-item\">\n    <span class=\"spectrum-Button-label\">Rate now</span>\n  </button>\n</div>",
+          "javascriptreact": "<ButtonGroup>\n  <Button variant=\"primary\">Rate Now</Button>\n  <Button variant=\"secondary\">No, thanks</Button>\n  <Button variant=\"secondary\">Remind me later</Button>\n</ButtonGroup>"
+        }
       },
-      "tags": [],
-      "type": "page"
+      "name": "Button group",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "b016bad9-0ff3-43fe-9d95-32c900c109b7",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Button group\n\nA button group is a grouping of buttons whose actions are related to each other.\n\n[View full documentation](https://spectrum.adobe.com/page/button-group/)",
+      "last_updated": "2020-10-19T03:39:54.061Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Checkbox.html)",
-      "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
-      "name": "Checkbox",
+      "type": "page",
+      "tags": [],
+      "id": "bed59853-622c-4be0-ab10-0f3dcff22adf",
       "related_entity_ids": [],
       "snippets": {
+        "trigger": "checkbox",
         "languages": {
+          "css": "<label class=\"spectrum-Checkbox\">\n      <input type=\"checkbox\" class=\"spectrum-Checkbox-input\" id=\"checkbox-0\">\n      <span class=\"spectrum-Checkbox-box\">\n        <svg class=\"spectrum-Icon spectrum-UIIcon-CheckmarkSmall spectrum-Checkbox-checkmark\" focusable=\"false\" aria-hidden=\"true\">\n          <use xlink:href=\"#spectrum-css-icon-CheckmarkSmall\" />\n        </svg>\n        <svg class=\"spectrum-Icon spectrum-UIIcon-DashSmall spectrum-Checkbox-partialCheckmark\" focusable=\"false\" aria-hidden=\"true\">\n          <use xlink:href=\"#spectrum-css-icon-DashSmall\" />\n        </svg>\n      </span>\n      <span class=\"spectrum-Checkbox-label\">Checkbox</span>\n</label>",
+          "html": "<sp-checkbox>Web component</sp-checkbox>",
           "javascriptreact": "<Checkbox>Unsubscribe</Checkbox>"
-        },
-        "trigger": "checkbox"
+        }
       },
-      "tags": [],
-      "type": "page"
+      "name": "Checkbox",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "ee3af173-d909-47be-bf6d-cf527520cfd6",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n[View full documentation](https://spectrum.adobe.com/page/checkbox/)",
+      "last_updated": "2020-10-19T03:38:59.801Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## Dialog\n\nDialogs are windows containing contextual information, tasks, or workflows that appear over the user interface. Depending on the kind of Dialog, further interactions may be blocked until the Dialog is acknowledged.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Dialog.html)",
-      "id": "ec1db177-58ba-4612-bbdc-4938ba337ff7",
+      "type": "page",
+      "tags": [],
+      "id": "1b6e635d-63ae-42db-b48b-1a7eefbb57d0",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "coach-mark",
+        "languages": {
+          "css": "<div>\n  <div class=\"spectrum-CoachMarkIndicator spectrum-CoachMarkIndicator--quiet\">\n    <div class=\"spectrum-CoachMarkIndicator-ring\"></div>\n    <div class=\"spectrum-CoachMarkIndicator-ring\"></div>\n    <div class=\"spectrum-CoachMarkIndicator-ring\"></div>\n  </div>\n\n  <div class=\"spectrum-CoachMarkPopover\">\n    <div class=\"spectrum-CoachMarkPopover-header\">\n      <div class=\"spectrum-CoachMarkPopover-title\">Zoom in</div>\n    </div>\n    <div class=\"spectrum-CoachMarkPopover-content\">\n      Switch to the zoom tool then click and drag in the canvas to move your camera forward and backward.\n    </div>\n    <div class=\"spectrum-CoachMarkPopover-footer\">\n      <button class=\"spectrum-Button spectrum-Button--secondary spectrum-Button--quiet\">\n        <span>Skip Tour</span>\n      </button>\n      <button class=\"spectrum-Button spectrum-Button--primary\">\n        <span>Next</span>\n      </button>\n    </div>\n  </div>\n</div>"
+        }
+      },
+      "name": "Coach mark",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "7ba6891e-0358-444a-8a04-39111801afd7",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Color area\n\nA color area allows users to visually select two properties of a color simultaneously. It's commonly used together with a color slider or color wheel.\n\n[View full documentation](https://spectrum.adobe.com/page/coach-mark/)",
+      "last_updated": "2020-10-19T03:37:05.492Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "c41a2282-8990-4ecd-ac0d-6c4c19471813",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "color-area",
+        "languages": {
+          "css": "<div class=\"spectrum-ColorArea\">\n  <div class=\"spectrum-ColorArea-gradient\" style=\"background: linear-gradient(to top, black 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(to right, white 0%, rgba(0, 0, 0, 0) 100%), rgb(255, 0, 0);\"></div>\n\n  <div class=\"spectrum-ColorHandle spectrum-ColorArea-handle\" style=\"transform: translate(192px, 0px);\">\n    <div class=\"spectrum-ColorHandle-color\" style=\"background-color: rgb(255, 0, 0)\"></div>\n    <svg class=\"spectrum-ColorLoupe\">\n      <g transform=\"translate(1 1)\">\n        <path class=\"spectrum-ColorLoupe-inner\" d=\"M24,0A24,24,0,0,1,48,24c0,16.255-24,40-24,40S0,40.255,0,24A24,24,0,0,1,24,0Z\" fill=\"rgb(255, 0, 0)\" />\n        <path class=\"spectrum-ColorLoupe-outer\" d=\"M24,2A21.98,21.98,0,0,0,2,24c0,6.2,4,14.794,11.568,24.853A144.233,144.233,0,0,0,24,61.132,144.085,144.085,0,0,0,34.4,48.893C41.99,38.816,46,30.209,46,24A21.98,21.98,0,0,0,24,2m0-2A24,24,0,0,1,48,24c0,16.255-24,40-24,40S0,40.255,0,24A24,24,0,0,1,24,0Z\"/>\n      </g>\n    </svg>\n  </div>\n\n  <input type=\"range\" class=\"spectrum-ColorArea-slider\" name=\"x\" aria-label=\"saturation and value\" min=\"0\" max=\"1\" step=\"0.01\">\n  <input type=\"range\" class=\"spectrum-ColorArea-slider\" name=\"y\" aria-label=\"saturation and value\" min=\"0\" max=\"1\" step=\"0.01\">\n</div>"
+        }
+      },
+      "name": "Color area",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Color area\n\nA color area allows users to visually select two properties of a color simultaneously. It's commonly used together with a color slider or color wheel.\n\n[View full documentation](https://spectrum.adobe.com/page/color-area/)",
+      "last_updated": "2020-10-19T03:35:57.969Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "6244ca44-54e2-4098-a7f9-44fefc20ce2c",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "color-slider",
+        "languages": {
+          "css": "<div class=\"spectrum-ColorSlider\">\n  <div class=\"spectrum-ColorSlider-checkerboard\" role=\"presentation\">\n    <div class=\"spectrum-ColorSlider-gradient\" role=\"presentation\" style=\"background: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(255, 255, 0) 17%, rgb(0, 255, 0) 33%, rgb(0, 255, 255) 50%, rgb(0, 0, 255) 67%, rgb(255, 0, 255) 83%, rgb(255, 0, 0) 100%);\"></div>\n  </div>\n\n  <div class=\"spectrum-ColorHandle spectrum-ColorSlider-handle\">\n    <div class=\"spectrum-ColorHandle-color\" style=\"background-color: rgb(255, 0, 0)\"></div>\n    <svg class=\"spectrum-ColorLoupe\">\n      <g transform=\"translate(1 1)\">\n        <path class=\"spectrum-ColorLoupe-inner\" d=\"M24,0A24,24,0,0,1,48,24c0,16.255-24,40-24,40S0,40.255,0,24A24,24,0,0,1,24,0Z\" fill=\"rgb(255, 0, 0)\" />\n        <path class=\"spectrum-ColorLoupe-outer\" d=\"M24,2A21.98,21.98,0,0,0,2,24c0,6.2,4,14.794,11.568,24.853A144.233,144.233,0,0,0,24,61.132,144.085,144.085,0,0,0,34.4,48.893C41.99,38.816,46,30.209,46,24A21.98,21.98,0,0,0,24,2m0-2A24,24,0,0,1,48,24c0,16.255-24,40-24,40S0,40.255,0,24A24,24,0,0,1,24,0Z\"/>\n      </g>\n    </svg>\n  </div>\n\n  <input type=\"range\" class=\"spectrum-ColorSlider-slider\" min=\"0\" max=\"100\" step=\"1\">\n</div>"
+        }
+      },
+      "name": "Color slider",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "a0219205-71f6-40d7-8903-f476843845e3",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Color slider\n\nA color slider lets users visually change an individual channel of a color.\n\n[View full documentation](https://spectrum.adobe.com/page/color-slider/)",
+      "last_updated": "2020-10-19T03:35:36.299Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "658d90cb-e1a1-4d9c-9f26-e22a0d2c9cd1",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "color-wheel",
+        "languages": {
+          "css": "<div class=\"spectrum-ColorWheel\">\n  <svg class=\"spectrum-ColorWheel-wheel\" viewBox=\"0 0 160 160\" aria-hidden=\"true\">\n    <defs>\n      <mask id=\"mask\">\n        <circle cx=\"80\" cy=\"80\" r=\"80\" fill=\"white\" />\n        <circle cx=\"80\" cy=\"80\" r=\"56\" fill=\"black\" />\n      </mask>\n    </defs>\n    <g class=\"spectrum-ColorWheel-segment\" mask=\"url(#mask)\"><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(0, 100%, 50%)\" transform=\"rotate(0 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(1, 100%, 50%)\" transform=\"rotate(1 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(2, 100%, 50%)\" transform=\"rotate(2 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(3, 100%, 50%)\" transform=\"rotate(3 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(4, 100%, 50%)\" transform=\"rotate(4 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(5, 100%, 50%)\" transform=\"rotate(5 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(6, 100%, 50%)\" transform=\"rotate(6 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(7, 100%, 50%)\" transform=\"rotate(7 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(8, 100%, 50%)\" transform=\"rotate(8 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(9, 100%, 50%)\" transform=\"rotate(9 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(10, 100%, 50%)\" transform=\"rotate(10 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(11, 100%, 50%)\" transform=\"rotate(11 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(12, 100%, 50%)\" transform=\"rotate(12 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(13, 100%, 50%)\" transform=\"rotate(13 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(14, 100%, 50%)\" transform=\"rotate(14 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(15, 100%, 50%)\" transform=\"rotate(15 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(16, 100%, 50%)\" transform=\"rotate(16 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(17, 100%, 50%)\" transform=\"rotate(17 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(18, 100%, 50%)\" transform=\"rotate(18 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(19, 100%, 50%)\" transform=\"rotate(19 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(20, 100%, 50%)\" transform=\"rotate(20 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(21, 100%, 50%)\" transform=\"rotate(21 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(22, 100%, 50%)\" transform=\"rotate(22 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(23, 100%, 50%)\" transform=\"rotate(23 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(24, 100%, 50%)\" transform=\"rotate(24 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(25, 100%, 50%)\" transform=\"rotate(25 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(26, 100%, 50%)\" transform=\"rotate(26 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(27, 100%, 50%)\" transform=\"rotate(27 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(28, 100%, 50%)\" transform=\"rotate(28 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(29, 100%, 50%)\" transform=\"rotate(29 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(30, 100%, 50%)\" transform=\"rotate(30 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(31, 100%, 50%)\" transform=\"rotate(31 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(32, 100%, 50%)\" transform=\"rotate(32 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(33, 100%, 50%)\" transform=\"rotate(33 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(34, 100%, 50%)\" transform=\"rotate(34 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(35, 100%, 50%)\" transform=\"rotate(35 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(36, 100%, 50%)\" transform=\"rotate(36 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(37, 100%, 50%)\" transform=\"rotate(37 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(38, 100%, 50%)\" transform=\"rotate(38 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(39, 100%, 50%)\" transform=\"rotate(39 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(40, 100%, 50%)\" transform=\"rotate(40 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(41, 100%, 50%)\" transform=\"rotate(41 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(42, 100%, 50%)\" transform=\"rotate(42 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(43, 100%, 50%)\" transform=\"rotate(43 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(44, 100%, 50%)\" transform=\"rotate(44 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(45, 100%, 50%)\" transform=\"rotate(45 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(46, 100%, 50%)\" transform=\"rotate(46 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(47, 100%, 50%)\" transform=\"rotate(47 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(48, 100%, 50%)\" transform=\"rotate(48 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(49, 100%, 50%)\" transform=\"rotate(49 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(50, 100%, 50%)\" transform=\"rotate(50 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(51, 100%, 50%)\" transform=\"rotate(51 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(52, 100%, 50%)\" transform=\"rotate(52 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(53, 100%, 50%)\" transform=\"rotate(53 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(54, 100%, 50%)\" transform=\"rotate(54 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(55, 100%, 50%)\" transform=\"rotate(55 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(56, 100%, 50%)\" transform=\"rotate(56 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(57, 100%, 50%)\" transform=\"rotate(57 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(58, 100%, 50%)\" transform=\"rotate(58 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(59, 100%, 50%)\" transform=\"rotate(59 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(60, 100%, 50%)\" transform=\"rotate(60 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(61, 100%, 50%)\" transform=\"rotate(61 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(62, 100%, 50%)\" transform=\"rotate(62 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(63, 100%, 50%)\" transform=\"rotate(63 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(64, 100%, 50%)\" transform=\"rotate(64 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(65, 100%, 50%)\" transform=\"rotate(65 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(66, 100%, 50%)\" transform=\"rotate(66 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(67, 100%, 50%)\" transform=\"rotate(67 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(68, 100%, 50%)\" transform=\"rotate(68 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(69, 100%, 50%)\" transform=\"rotate(69 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(70, 100%, 50%)\" transform=\"rotate(70 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(71, 100%, 50%)\" transform=\"rotate(71 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(72, 100%, 50%)\" transform=\"rotate(72 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(73, 100%, 50%)\" transform=\"rotate(73 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(74, 100%, 50%)\" transform=\"rotate(74 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(75, 100%, 50%)\" transform=\"rotate(75 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(76, 100%, 50%)\" transform=\"rotate(76 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(77, 100%, 50%)\" transform=\"rotate(77 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(78, 100%, 50%)\" transform=\"rotate(78 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(79, 100%, 50%)\" transform=\"rotate(79 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(80, 100%, 50%)\" transform=\"rotate(80 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(81, 100%, 50%)\" transform=\"rotate(81 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(82, 100%, 50%)\" transform=\"rotate(82 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(83, 100%, 50%)\" transform=\"rotate(83 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(84, 100%, 50%)\" transform=\"rotate(84 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(85, 100%, 50%)\" transform=\"rotate(85 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(86, 100%, 50%)\" transform=\"rotate(86 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(87, 100%, 50%)\" transform=\"rotate(87 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(88, 100%, 50%)\" transform=\"rotate(88 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(89, 100%, 50%)\" transform=\"rotate(89 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(90, 100%, 50%)\" transform=\"rotate(90 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(91, 100%, 50%)\" transform=\"rotate(91 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(92, 100%, 50%)\" transform=\"rotate(92 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(93, 100%, 50%)\" transform=\"rotate(93 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(94, 100%, 50%)\" transform=\"rotate(94 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(95, 100%, 50%)\" transform=\"rotate(95 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(96, 100%, 50%)\" transform=\"rotate(96 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(97, 100%, 50%)\" transform=\"rotate(97 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(98, 100%, 50%)\" transform=\"rotate(98 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(99, 100%, 50%)\" transform=\"rotate(99 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(100, 100%, 50%)\" transform=\"rotate(100 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(101, 100%, 50%)\" transform=\"rotate(101 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(102, 100%, 50%)\" transform=\"rotate(102 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(103, 100%, 50%)\" transform=\"rotate(103 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(104, 100%, 50%)\" transform=\"rotate(104 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(105, 100%, 50%)\" transform=\"rotate(105 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(106, 100%, 50%)\" transform=\"rotate(106 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(107, 100%, 50%)\" transform=\"rotate(107 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(108, 100%, 50%)\" transform=\"rotate(108 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(109, 100%, 50%)\" transform=\"rotate(109 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(110, 100%, 50%)\" transform=\"rotate(110 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(111, 100%, 50%)\" transform=\"rotate(111 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(112, 100%, 50%)\" transform=\"rotate(112 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(113, 100%, 50%)\" transform=\"rotate(113 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(114, 100%, 50%)\" transform=\"rotate(114 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(115, 100%, 50%)\" transform=\"rotate(115 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(116, 100%, 50%)\" transform=\"rotate(116 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(117, 100%, 50%)\" transform=\"rotate(117 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(118, 100%, 50%)\" transform=\"rotate(118 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(119, 100%, 50%)\" transform=\"rotate(119 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(120, 100%, 50%)\" transform=\"rotate(120 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(121, 100%, 50%)\" transform=\"rotate(121 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(122, 100%, 50%)\" transform=\"rotate(122 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(123, 100%, 50%)\" transform=\"rotate(123 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(124, 100%, 50%)\" transform=\"rotate(124 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(125, 100%, 50%)\" transform=\"rotate(125 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(126, 100%, 50%)\" transform=\"rotate(126 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(127, 100%, 50%)\" transform=\"rotate(127 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(128, 100%, 50%)\" transform=\"rotate(128 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(129, 100%, 50%)\" transform=\"rotate(129 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(130, 100%, 50%)\" transform=\"rotate(130 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(131, 100%, 50%)\" transform=\"rotate(131 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(132, 100%, 50%)\" transform=\"rotate(132 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(133, 100%, 50%)\" transform=\"rotate(133 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(134, 100%, 50%)\" transform=\"rotate(134 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(135, 100%, 50%)\" transform=\"rotate(135 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(136, 100%, 50%)\" transform=\"rotate(136 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(137, 100%, 50%)\" transform=\"rotate(137 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(138, 100%, 50%)\" transform=\"rotate(138 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(139, 100%, 50%)\" transform=\"rotate(139 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(140, 100%, 50%)\" transform=\"rotate(140 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(141, 100%, 50%)\" transform=\"rotate(141 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(142, 100%, 50%)\" transform=\"rotate(142 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(143, 100%, 50%)\" transform=\"rotate(143 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(144, 100%, 50%)\" transform=\"rotate(144 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(145, 100%, 50%)\" transform=\"rotate(145 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(146, 100%, 50%)\" transform=\"rotate(146 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(147, 100%, 50%)\" transform=\"rotate(147 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(148, 100%, 50%)\" transform=\"rotate(148 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(149, 100%, 50%)\" transform=\"rotate(149 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(150, 100%, 50%)\" transform=\"rotate(150 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(151, 100%, 50%)\" transform=\"rotate(151 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(152, 100%, 50%)\" transform=\"rotate(152 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(153, 100%, 50%)\" transform=\"rotate(153 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(154, 100%, 50%)\" transform=\"rotate(154 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(155, 100%, 50%)\" transform=\"rotate(155 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(156, 100%, 50%)\" transform=\"rotate(156 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(157, 100%, 50%)\" transform=\"rotate(157 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(158, 100%, 50%)\" transform=\"rotate(158 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(159, 100%, 50%)\" transform=\"rotate(159 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(160, 100%, 50%)\" transform=\"rotate(160 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(161, 100%, 50%)\" transform=\"rotate(161 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(162, 100%, 50%)\" transform=\"rotate(162 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(163, 100%, 50%)\" transform=\"rotate(163 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(164, 100%, 50%)\" transform=\"rotate(164 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(165, 100%, 50%)\" transform=\"rotate(165 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(166, 100%, 50%)\" transform=\"rotate(166 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(167, 100%, 50%)\" transform=\"rotate(167 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(168, 100%, 50%)\" transform=\"rotate(168 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(169, 100%, 50%)\" transform=\"rotate(169 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(170, 100%, 50%)\" transform=\"rotate(170 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(171, 100%, 50%)\" transform=\"rotate(171 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(172, 100%, 50%)\" transform=\"rotate(172 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(173, 100%, 50%)\" transform=\"rotate(173 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(174, 100%, 50%)\" transform=\"rotate(174 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(175, 100%, 50%)\" transform=\"rotate(175 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(176, 100%, 50%)\" transform=\"rotate(176 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(177, 100%, 50%)\" transform=\"rotate(177 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(178, 100%, 50%)\" transform=\"rotate(178 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(179, 100%, 50%)\" transform=\"rotate(179 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(180, 100%, 50%)\" transform=\"rotate(180 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(181, 100%, 50%)\" transform=\"rotate(181 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(182, 100%, 50%)\" transform=\"rotate(182 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(183, 100%, 50%)\" transform=\"rotate(183 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(184, 100%, 50%)\" transform=\"rotate(184 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(185, 100%, 50%)\" transform=\"rotate(185 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(186, 100%, 50%)\" transform=\"rotate(186 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(187, 100%, 50%)\" transform=\"rotate(187 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(188, 100%, 50%)\" transform=\"rotate(188 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(189, 100%, 50%)\" transform=\"rotate(189 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(190, 100%, 50%)\" transform=\"rotate(190 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(191, 100%, 50%)\" transform=\"rotate(191 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(192, 100%, 50%)\" transform=\"rotate(192 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(193, 100%, 50%)\" transform=\"rotate(193 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(194, 100%, 50%)\" transform=\"rotate(194 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(195, 100%, 50%)\" transform=\"rotate(195 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(196, 100%, 50%)\" transform=\"rotate(196 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(197, 100%, 50%)\" transform=\"rotate(197 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(198, 100%, 50%)\" transform=\"rotate(198 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(199, 100%, 50%)\" transform=\"rotate(199 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(200, 100%, 50%)\" transform=\"rotate(200 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(201, 100%, 50%)\" transform=\"rotate(201 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(202, 100%, 50%)\" transform=\"rotate(202 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(203, 100%, 50%)\" transform=\"rotate(203 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(204, 100%, 50%)\" transform=\"rotate(204 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(205, 100%, 50%)\" transform=\"rotate(205 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(206, 100%, 50%)\" transform=\"rotate(206 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(207, 100%, 50%)\" transform=\"rotate(207 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(208, 100%, 50%)\" transform=\"rotate(208 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(209, 100%, 50%)\" transform=\"rotate(209 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(210, 100%, 50%)\" transform=\"rotate(210 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(211, 100%, 50%)\" transform=\"rotate(211 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(212, 100%, 50%)\" transform=\"rotate(212 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(213, 100%, 50%)\" transform=\"rotate(213 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(214, 100%, 50%)\" transform=\"rotate(214 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(215, 100%, 50%)\" transform=\"rotate(215 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(216, 100%, 50%)\" transform=\"rotate(216 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(217, 100%, 50%)\" transform=\"rotate(217 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(218, 100%, 50%)\" transform=\"rotate(218 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(219, 100%, 50%)\" transform=\"rotate(219 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(220, 100%, 50%)\" transform=\"rotate(220 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(221, 100%, 50%)\" transform=\"rotate(221 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(222, 100%, 50%)\" transform=\"rotate(222 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(223, 100%, 50%)\" transform=\"rotate(223 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(224, 100%, 50%)\" transform=\"rotate(224 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(225, 100%, 50%)\" transform=\"rotate(225 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(226, 100%, 50%)\" transform=\"rotate(226 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(227, 100%, 50%)\" transform=\"rotate(227 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(228, 100%, 50%)\" transform=\"rotate(228 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(229, 100%, 50%)\" transform=\"rotate(229 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(230, 100%, 50%)\" transform=\"rotate(230 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(231, 100%, 50%)\" transform=\"rotate(231 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(232, 100%, 50%)\" transform=\"rotate(232 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(233, 100%, 50%)\" transform=\"rotate(233 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(234, 100%, 50%)\" transform=\"rotate(234 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(235, 100%, 50%)\" transform=\"rotate(235 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(236, 100%, 50%)\" transform=\"rotate(236 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(237, 100%, 50%)\" transform=\"rotate(237 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(238, 100%, 50%)\" transform=\"rotate(238 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(239, 100%, 50%)\" transform=\"rotate(239 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(240, 100%, 50%)\" transform=\"rotate(240 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(241, 100%, 50%)\" transform=\"rotate(241 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(242, 100%, 50%)\" transform=\"rotate(242 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(243, 100%, 50%)\" transform=\"rotate(243 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(244, 100%, 50%)\" transform=\"rotate(244 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(245, 100%, 50%)\" transform=\"rotate(245 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(246, 100%, 50%)\" transform=\"rotate(246 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(247, 100%, 50%)\" transform=\"rotate(247 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(248, 100%, 50%)\" transform=\"rotate(248 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(249, 100%, 50%)\" transform=\"rotate(249 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(250, 100%, 50%)\" transform=\"rotate(250 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(251, 100%, 50%)\" transform=\"rotate(251 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(252, 100%, 50%)\" transform=\"rotate(252 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(253, 100%, 50%)\" transform=\"rotate(253 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(254, 100%, 50%)\" transform=\"rotate(254 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(255, 100%, 50%)\" transform=\"rotate(255 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(256, 100%, 50%)\" transform=\"rotate(256 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(257, 100%, 50%)\" transform=\"rotate(257 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(258, 100%, 50%)\" transform=\"rotate(258 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(259, 100%, 50%)\" transform=\"rotate(259 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(260, 100%, 50%)\" transform=\"rotate(260 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(261, 100%, 50%)\" transform=\"rotate(261 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(262, 100%, 50%)\" transform=\"rotate(262 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(263, 100%, 50%)\" transform=\"rotate(263 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(264, 100%, 50%)\" transform=\"rotate(264 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(265, 100%, 50%)\" transform=\"rotate(265 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(266, 100%, 50%)\" transform=\"rotate(266 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(267, 100%, 50%)\" transform=\"rotate(267 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(268, 100%, 50%)\" transform=\"rotate(268 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(269, 100%, 50%)\" transform=\"rotate(269 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(270, 100%, 50%)\" transform=\"rotate(270 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(271, 100%, 50%)\" transform=\"rotate(271 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(272, 100%, 50%)\" transform=\"rotate(272 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(273, 100%, 50%)\" transform=\"rotate(273 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(274, 100%, 50%)\" transform=\"rotate(274 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(275, 100%, 50%)\" transform=\"rotate(275 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(276, 100%, 50%)\" transform=\"rotate(276 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(277, 100%, 50%)\" transform=\"rotate(277 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(278, 100%, 50%)\" transform=\"rotate(278 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(279, 100%, 50%)\" transform=\"rotate(279 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(280, 100%, 50%)\" transform=\"rotate(280 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(281, 100%, 50%)\" transform=\"rotate(281 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(282, 100%, 50%)\" transform=\"rotate(282 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(283, 100%, 50%)\" transform=\"rotate(283 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(284, 100%, 50%)\" transform=\"rotate(284 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(285, 100%, 50%)\" transform=\"rotate(285 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(286, 100%, 50%)\" transform=\"rotate(286 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(287, 100%, 50%)\" transform=\"rotate(287 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(288, 100%, 50%)\" transform=\"rotate(288 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(289, 100%, 50%)\" transform=\"rotate(289 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(290, 100%, 50%)\" transform=\"rotate(290 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(291, 100%, 50%)\" transform=\"rotate(291 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(292, 100%, 50%)\" transform=\"rotate(292 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(293, 100%, 50%)\" transform=\"rotate(293 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(294, 100%, 50%)\" transform=\"rotate(294 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(295, 100%, 50%)\" transform=\"rotate(295 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(296, 100%, 50%)\" transform=\"rotate(296 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(297, 100%, 50%)\" transform=\"rotate(297 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(298, 100%, 50%)\" transform=\"rotate(298 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(299, 100%, 50%)\" transform=\"rotate(299 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(300, 100%, 50%)\" transform=\"rotate(300 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(301, 100%, 50%)\" transform=\"rotate(301 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(302, 100%, 50%)\" transform=\"rotate(302 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(303, 100%, 50%)\" transform=\"rotate(303 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(304, 100%, 50%)\" transform=\"rotate(304 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(305, 100%, 50%)\" transform=\"rotate(305 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(306, 100%, 50%)\" transform=\"rotate(306 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(307, 100%, 50%)\" transform=\"rotate(307 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(308, 100%, 50%)\" transform=\"rotate(308 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(309, 100%, 50%)\" transform=\"rotate(309 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(310, 100%, 50%)\" transform=\"rotate(310 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(311, 100%, 50%)\" transform=\"rotate(311 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(312, 100%, 50%)\" transform=\"rotate(312 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(313, 100%, 50%)\" transform=\"rotate(313 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(314, 100%, 50%)\" transform=\"rotate(314 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(315, 100%, 50%)\" transform=\"rotate(315 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(316, 100%, 50%)\" transform=\"rotate(316 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(317, 100%, 50%)\" transform=\"rotate(317 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(318, 100%, 50%)\" transform=\"rotate(318 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(319, 100%, 50%)\" transform=\"rotate(319 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(320, 100%, 50%)\" transform=\"rotate(320 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(321, 100%, 50%)\" transform=\"rotate(321 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(322, 100%, 50%)\" transform=\"rotate(322 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(323, 100%, 50%)\" transform=\"rotate(323 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(324, 100%, 50%)\" transform=\"rotate(324 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(325, 100%, 50%)\" transform=\"rotate(325 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(326, 100%, 50%)\" transform=\"rotate(326 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(327, 100%, 50%)\" transform=\"rotate(327 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(328, 100%, 50%)\" transform=\"rotate(328 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(329, 100%, 50%)\" transform=\"rotate(329 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(330, 100%, 50%)\" transform=\"rotate(330 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(331, 100%, 50%)\" transform=\"rotate(331 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(332, 100%, 50%)\" transform=\"rotate(332 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(333, 100%, 50%)\" transform=\"rotate(333 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(334, 100%, 50%)\" transform=\"rotate(334 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(335, 100%, 50%)\" transform=\"rotate(335 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(336, 100%, 50%)\" transform=\"rotate(336 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(337, 100%, 50%)\" transform=\"rotate(337 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(338, 100%, 50%)\" transform=\"rotate(338 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(339, 100%, 50%)\" transform=\"rotate(339 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(340, 100%, 50%)\" transform=\"rotate(340 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(341, 100%, 50%)\" transform=\"rotate(341 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(342, 100%, 50%)\" transform=\"rotate(342 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(343, 100%, 50%)\" transform=\"rotate(343 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(344, 100%, 50%)\" transform=\"rotate(344 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(345, 100%, 50%)\" transform=\"rotate(345 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(346, 100%, 50%)\" transform=\"rotate(346 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(347, 100%, 50%)\" transform=\"rotate(347 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(348, 100%, 50%)\" transform=\"rotate(348 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(349, 100%, 50%)\" transform=\"rotate(349 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(350, 100%, 50%)\" transform=\"rotate(350 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(351, 100%, 50%)\" transform=\"rotate(351 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(352, 100%, 50%)\" transform=\"rotate(352 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(353, 100%, 50%)\" transform=\"rotate(353 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(354, 100%, 50%)\" transform=\"rotate(354 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(355, 100%, 50%)\" transform=\"rotate(355 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(356, 100%, 50%)\" transform=\"rotate(356 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(357, 100%, 50%)\" transform=\"rotate(357 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(358, 100%, 50%)\" transform=\"rotate(358 80 80)\"></rect><rect width=\"80\" height=\"2\" x=\"80\" y=\"79\" fill=\"hsl(359, 100%, 50%)\" transform=\"rotate(359 80 80)\"></rect></g>\n    <circle cx=\"80\" cy=\"80\" r=\"79.5\" class=\"spectrum-ColorWheel-outerCircle\" mask=\"url(#mask)\" />\n    <circle cx=\"80\" cy=\"80\" r=\"56\" class=\"spectrum-ColorWheel-innerCircle\" />\n  </svg>\n\n  <div class=\"spectrum-ColorHandle spectrum-ColorWheel-handle\" style=\"transform: translate(67.5px, 0);\">\n    <div class=\"spectrum-ColorHandle-color\" style=\"background-color: rgb(255, 0, 0)\"></div>\n    <svg class=\"spectrum-ColorLoupe\">\n      <g transform=\"translate(1 1)\">\n        <path class=\"spectrum-ColorLoupe-inner\" d=\"M24,0A24,24,0,0,1,48,24c0,16.255-24,40-24,40S0,40.255,0,24A24,24,0,0,1,24,0Z\" fill=\"rgb(255, 0, 0)\" />\n        <path class=\"spectrum-ColorLoupe-outer\" d=\"M24,2A21.98,21.98,0,0,0,2,24c0,6.2,4,14.794,11.568,24.853A144.233,144.233,0,0,0,24,61.132,144.085,144.085,0,0,0,34.4,48.893C41.99,38.816,46,30.209,46,24A21.98,21.98,0,0,0,24,2m0-2A24,24,0,0,1,48,24c0,16.255-24,40-24,40S0,40.255,0,24A24,24,0,0,1,24,0Z\"/>\n      </g>\n    </svg>\n  </div>\n\n  <input type=\"range\" class=\"spectrum-ColorWheel-slider\" aria-label=\"hue\" min=\"0\" max=\"360\" step=\"`\">\n</div>"
+        }
+      },
+      "name": "Color wheel",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Color wheel\n\nA color wheel lets users visually change an individual channel of a color on a circular track.\n\n[View full documentation](https://spectrum.adobe.com/page/color-wheel/)",
+      "last_updated": "2020-10-19T03:35:09.751Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "31eebdbc-eee4-4e0a-904d-6113488ecbba",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "combo-box",
+        "languages": {
+          "css": "<h4>Default</h4>\n<div class=\"spectrum-InputGroup\">\n  <div class=\"spectrum-Textfield spectrum-InputGroup-textfield\">\n    <input type=\"text\" placeholder=\"Type here\" name=\"field\" value=\"\" class=\"spectrum-Textfield-input spectrum-InputGroup-input\">\n  </div>\n  <button class=\"spectrum-FieldButton spectrum-InputGroup-button\" tabindex=\"-1\" aria-haspopup=\"true\">\n    <svg class=\"spectrum-Icon spectrum-UIIcon-ChevronDownMedium spectrum-InputGroup-icon\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-ChevronDownMedium\" />\n    </svg>\n  </button>\n</div>"
+        }
+      },
+      "name": "Combo box",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "67082a6b-8e99-48c5-93b3-ab077b2c1cff",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Combo box\n\nCombo boxes combine a text entry with a picker menu, allowing users to filter longer lists to only the selections matching a query.\n\n[View full documentation](https://spectrum.adobe.com/page/combo-box/)",
+      "last_updated": "2020-10-19T03:33:53.653Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "20ba919b-ca36-437f-8460-e1c79633062a",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "dialog",
+        "languages": {
+          "css": "<button class=\"spectrum-Button spectrum-Button--overBackground spectrum-CSSExample-overlayShowButton\" onclick=\"openDialog(this.nextElementSibling)\">Open Alert Confirmation Dialog</button>\n<div class=\"spectrum-Modal-wrapper spectrum-CSSExample-dialog\">\n  <div class=\"spectrum-Modal is-open\" data-testid=\"modal\">\n    <section class=\"spectrum-Dialog spectrum-Dialog--medium spectrum-Dialog--confirmation\" role=\"alertdialog\" tabindex=\"-1\" aria-modal=\"true\">\n      <div class=\"spectrum-Dialog-grid\">\n        <h1 class=\"spectrum-Dialog-heading spectrum-Dialog-heading--noHeader\">Enable Smart Filters?</h1>\n        <hr class=\"spectrum-Divider spectrum-Divider--medium spectrum-Divider--horizontal spectrum-Dialog-divider\">\n        <section class=\"spectrum-Dialog-content\">Smart filters are nondestructive and will preserve your original images.</section>\n        <div class=\"spectrum-ButtonGroup spectrum-Dialog-buttonGroup spectrum-Dialog-buttonGroup--noFooter\">\n          <button class=\"spectrum-Button spectrum-Button--secondary spectrum-ButtonGroup-item\" type=\"button\" onclick=\"closeDialog(this.closest('.spectrum-Modal-wrapper'))\">\n            <span class=\"spectrum-Button-label\">Cancel</span>\n          </button>\n          <button class=\"spectrum-Button spectrum-Button--cta spectrum-ButtonGroup-item\" type=\"button\" onclick=\"closeDialog(this.closest('.spectrum-Modal-wrapper'))\">\n            <span class=\"spectrum-Button-label\">Enable</span>\n          </button>\n        </div>\n      </div>\n    </section>\n  </div>\n</div>",
+          "javascriptreact": "<DialogTrigger>\n  <ActionButton>Save</ActionButton>\n  <AlertDialog\n    title=\"Low Disk Space\"\n    variant=\"warning\"\n    primaryActionLabel=\"Confirm\">\n    You are running low on disk space. Delete unnecessary files to free up\n    space.\n  </AlertDialog>\n</DialogTrigger>"
+        }
+      },
       "name": "Dialog",
-      "related_entity_ids": [],
-      "snippets": {
-        "languages": {
-          "javascriptreact": "<DialogTrigger>\n<ActionButton>Action</ActionButton>\n{(close) => \n(<Dialog>\n<Heading>Title</Heading>\n<Divider />\n<Content>Confirm publish?</Content>\n<ButtonGroup>\n<Button variant=\"secondary\" onPress={close}>Cancel</Button>\n<Button variant=\"cta\" onPress={close}>Confirm</Button>\n</ButtonGroup>\n</Dialog>)}\n</DialogTrigger>"
-        },
-        "trigger": "dialog-trigger"
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "ec1db177-58ba-4612-bbdc-4938ba337ff7",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
       },
-      "tags": [],
-      "type": "page"
+      "description": "# Dialog\n\nDialogs display important information that users need to acknowledge. They appear over the interface and block further interactions.\n\n[View full documentation](https://spectrum.adobe.com/page/dialog/)",
+      "last_updated": "2020-10-19T03:32:40.155Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Divider.html)",
-      "id": "19e39f8a-a44b-4bd5-b9b3-32a34a0138d3",
+      "type": "page",
+      "tags": [],
+      "id": "6d18922f-f713-4924-95be-3e10e92fb3b1",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "divider",
+        "languages": {
+          "css": "<h2 class=\"spectrum-Heading spectrum-Heading--M\">Large</h2>\n<hr class=\"spectrum-Divider spectrum-Divider--large\">\n<p class=\"spectrum-Body\">Page or Section Titles.</p>",
+          "javascriptreact": "<Flex direction=\"column\" gap=\"size-125\">\n  <Text>Content above</Text>\n  <Divider />\n  <Text>Content below</Text>\n</Flex>"
+        }
+      },
       "name": "Divider",
-      "related_entity_ids": [],
-      "snippets": {
-        "languages": {
-          "javascriptreact": "<Divider />"
-        },
-        "trigger": "divider"
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "19e39f8a-a44b-4bd5-b9b3-32a34a0138d3",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
       },
-      "tags": [],
-      "type": "page"
+      "description": "# Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n[View full documentation](https://spectrum.adobe.com/page/divider/)",
+      "last_updated": "2020-10-19T03:31:24.521Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/Link.html)",
-      "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
+      "type": "page",
+      "tags": [],
+      "id": "b521e34c-a45e-43b8-8b01-9a212313077c",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "link",
+        "languages": {
+          "css": "<a href=\"#\" class=\"spectrum-Link\">Link using spectrum-Link</a>",
+          "html": "<sp-link href=\"#\">example link</sp-link>",
+          "javascriptreact": "<Link>\n  <a href=\"https://www.imdb.com/title/tt6348138/\" target=\"_blank\">\n    The missing link.\n  </a>\n</Link>"
+        }
+      },
       "name": "Link",
-      "related_entity_ids": [],
-      "snippets": {
-        "languages": {
-          "javascriptreact": "<Link>\n<a href=\"https://www.adobe.com\" target=\"_blank\">Adobe.com</a>\n</Link>"
-        },
-        "trigger": "link"
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "ad636c3d-b68d-4b03-9d4a-497035ab07e9",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
       },
-      "tags": [],
-      "type": "page"
+      "description": "# Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n[View full documentation](https://spectrum.adobe.com/page/link/)",
+      "last_updated": "2020-10-19T03:30:24.580Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## RadioGroup\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/RadioGroup.html)",
-      "id": "39e2aa18-957a-4245-9e9a-f572a2d19ae6",
-      "name": "RadioGroup",
+      "type": "page",
+      "tags": [],
+      "id": "a6d8c318-46af-4ce4-9c72-dd18941ca93b",
       "related_entity_ids": [],
       "snippets": {
+        "trigger": "meter",
         "languages": {
-          "javascriptreact": "<RadioGroup label=\"Favorite pet\">\n<Radio value=\"dogs\">Dogs</Radio>\n<Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
-        },
-        "trigger": "radio-group"
+          "css": "<div style=\"margin: 20px 0;\">\n  <div class=\"spectrum-ProgressBar is-positive\" value=\"50\" role=\"progressbar\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n    <div class=\"spectrum-ProgressBar-label\">Storage Space</div>\n    <div class=\"spectrum-ProgressBar-percentage\">50%</div>\n    <div class=\"spectrum-ProgressBar-track\">\n      <div class=\"spectrum-ProgressBar-fill\" style=\"width: 50%;\"></div>\n    </div>\n  </div>\n</div>",
+          "javascriptreact": "<Meter label=\"Storage space\" variant=\"positive\" value={35} />"
+        }
       },
-      "tags": [],
-      "type": "page"
+      "name": "Meter",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "18b59109-94e6-47fd-b9ef-fd28e7a3e226",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Meter\n\nMeters are visual representations of a quantity or an achievement. Their progress is determined by user actions, rather than system actions.\n\n[View full documentation](https://spectrum.adobe.com/page/meter/)",
+      "last_updated": "2020-10-19T03:29:13.870Z",
+      "last_updated_by": "Demian Borba"
     },
     {
       "class": "component",
-      "description": "## SearchField\n\nA SearchField is a text field designed for searches.\n\n [View documentation](https://react-spectrum.adobe.com/react-spectrum/SearchField.html)",
-      "id": "b3b90df6-4f9b-4bb5-bc0c-865d9d87da26",
-      "name": "SearchField",
+      "type": "page",
+      "tags": [],
+      "id": "96567229-ad31-4b6b-9b9c-5a385d1df9be",
       "related_entity_ids": [],
       "snippets": {
+        "trigger": "picker",
         "languages": {
-          "javascriptreact": "<SearchField label=\"Search\" placeholder=\"Enter text\" onSubmit={onSubmit} />"
-        },
-        "trigger": "search-field"
+          "css": "<div class=\"spectrum-Picker\" style=\"width: 240px;\">\n  <button class=\"spectrum-FieldButton spectrum-Picker-trigger\" aria-haspopup=\"listbox\">\n    <span class=\"spectrum-Picker-label is-placeholder\">Select a Country with a very long label, too long in fact</span>\n    <svg class=\"spectrum-Icon spectrum-UIIcon-ChevronDownMedium spectrum-Picker-icon\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-ChevronDownMedium\" />\n    </svg>\n  </button>\n</div>",
+          "html": "<sp-dropdown label=\"Select a Country with a very long label, too long in fact\">\n    <sp-menu>\n        <sp-menu-item>\n            Deselect\n        </sp-menu-item>\n        <sp-menu-item>\n            Select inverse\n        </sp-menu-item>\n        <sp-menu-item>\n            Feather...\n        </sp-menu-item>\n        <sp-menu-item>\n            Select and mask...\n        </sp-menu-item>\n        <sp-menu-divider></sp-menu-divider>\n        <sp-menu-item>\n            Save selection\n        </sp-menu-item>\n        <sp-menu-item disabled>\n            Make work path\n        </sp-menu-item>\n    </sp-menu>\n</sp-dropdown>",
+          "javascriptreact": "<Picker label=\"Choose frequency\">\n  <Item key=\"rarely\">Rarely</Item>\n  <Item key=\"sometimes\">Sometimes</Item>\n  <Item key=\"always\">Always</Item>\n</Picker>"
+        }
       },
+      "name": "Picker",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "4e2d541b-c033-41bb-81da-87a0bae6f646",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Picker\n\nPickers (sometimes known as \"dropdowns\" or \"selects\") allow users to choose from a list of options in a limited space. The list of options can change based on the context.\n\n[View full documentation](https://spectrum.adobe.com/page/picker/)",
+      "last_updated": "2020-10-19T03:28:06.100Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
       "tags": [],
-      "type": "page"
+      "id": "9ab7cb1a-d5cd-45c5-96d3-b595dc8f38c3",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "progress-bar",
+        "languages": {
+          "css": "<div style=\"margin: 20px 0;\">\n  <div class=\"spectrum-ProgressBar\" value=\"50\" role=\"progressbar\" aria-valuenow=\"50\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n    <div class=\"spectrum-ProgressBar-label\">Loading</div>\n    <div class=\"spectrum-ProgressBar-percentage\">50%</div>\n    <div class=\"spectrum-ProgressBar-track\">\n      <div class=\"spectrum-ProgressBar-fill\" style=\"width: 50%;\"></div>\n    </div>\n  </div>\n</div>",
+          "javascriptreact": "<ProgressBar label=\"Loading…\" value={50} />"
+        }
+      },
+      "name": "Progress (bar)",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "71e3a2e7-0118-414a-a271-2d3c96e2b33d",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Progress bar\n\nProgress bars show the progression of a system operation: downloading, uploading, processing, etc., in a visual way. They can represent either determinate or indeterminate progress.\n\n[View full documentation](https://spectrum.adobe.com/page/progress-bar/)",
+      "last_updated": "2020-10-19T03:26:18.056Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "a37e915e-2b6a-4c58-8f8f-5aa69ccbf91a",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "progress-circle",
+        "languages": {
+          "css": "<div style=\"width: 250px; height: 150px; display: flex; align-items: center; justify-content: space-around;\" id=\"standard-loaders\">\n  <div class=\"spectrum-ProgressCircle spectrum-ProgressCircle--small\">\n    <div class=\"spectrum-ProgressCircle-track\"></div>\n    <div class=\"spectrum-ProgressCircle-fills\">\n      <div class=\"spectrum-ProgressCircle-fillMask1\">\n        <div class=\"spectrum-ProgressCircle-fillSubMask1\">\n          <div class=\"spectrum-ProgressCircle-fill\"></div>\n        </div>\n      </div>\n      <div class=\"spectrum-ProgressCircle-fillMask2\">\n        <div class=\"spectrum-ProgressCircle-fillSubMask2\">\n          <div class=\"spectrum-ProgressCircle-fill\"></div>\n        </div>\n      </div>\n    </div>\n  </div>",
+          "html": "<sp-circle-loader progress=\"71\" size=\"small\"></sp-circle-loader>",
+          "javascriptreact": "<ProgressCircle aria-label=\"Loading…\" value={50} />"
+        }
+      },
+      "name": "Progress (circle)",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "e772a996-8ed5-4cc7-bf34-042e64d85adb",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Progress circle\n\nProgress circles show the progression of a system operation such as downloading, uploading, processing, etc. in a visual way. They can represent determinate or indeterminate progress.\n\n[View full documentation](https://spectrum.adobe.com/page/progress-circle/)",
+      "last_updated": "2020-10-19T03:24:33.550Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "185e142b-51a9-45fd-bff2-d3d83125cde7",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "quick-actions",
+        "languages": {
+          "css": "<div class=\"spectrum-QuickActions-overlay\" style=\"padding: 40px;\">\n\n  <div class=\"spectrum-QuickActions is-open\">\n    <button class=\"spectrum-ActionButton spectrum-ActionButton--quiet\">\n      <svg class=\"spectrum-Icon spectrum-Icon--sizeM\" focusable=\"false\" aria-hidden=\"true\" aria-label=\"Edit\">\n        <use xlink:href=\"#spectrum-icon-18-Edit\" />\n      </svg>\n    </button>\n    <button class=\"spectrum-ActionButton spectrum-ActionButton--quiet\">\n      <svg class=\"spectrum-Icon spectrum-Icon--sizeM\" focusable=\"false\" aria-hidden=\"true\" aria-label=\"Copy\">\n        <use xlink:href=\"#spectrum-icon-18-Copy\" />\n      </svg>\n    </button>\n    <button class=\"spectrum-ActionButton spectrum-ActionButton--quiet\">\n      <svg class=\"spectrum-Icon spectrum-Icon--sizeM\" focusable=\"false\" aria-hidden=\"true\" aria-label=\"Delete\">\n        <use xlink:href=\"#spectrum-icon-18-Delete\" />\n      </svg>\n    </button>\n  </div>\n\n</div>"
+        }
+      },
+      "name": "Quick actions",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "d794b46c-ea34-40cb-b2ce-f0ded0e59dfd",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Quick actions\n\nQuick actions allow users to perform contextual actions when hovering or focusing on a specific component. They're shortcuts meant to make workflows more efficient.\n\n[View full documentation](https://spectrum.adobe.com/page/quick-actions/)",
+      "last_updated": "2020-10-19T03:14:46.190Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "fce912db-6e7a-4e93-b6b9-71d74949dcf3",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "radio-button",
+        "languages": {
+          "css": "<form>\n      <div class=\"spectrum-Radio\">\n        <input type=\"radio\" name=\"pets\" class=\"spectrum-Radio-input\" id=\"radio-0\">\n        <span class=\"spectrum-Radio-button\"></span>\n        <label class=\"spectrum-Radio-label\" for=\"radio-0\">Kittens</label>\n      </div>\n      <br>\n      <div class=\"spectrum-Radio\">\n        <input type=\"radio\" name=\"pets\" class=\"spectrum-Radio-input\" id=\"radio-1\" checked>\n        <span class=\"spectrum-Radio-button\"></span>\n        <label class=\"spectrum-Radio-label\" for=\"radio-1\">Puppies</label>\n      </div>\n</form>",
+          "html": "<sp-radio-group selected=\"first\" name=\"example\">\n    <sp-radio value=\"first\">Option 1</sp-radio>\n    <sp-radio value=\"second\">Option 2</sp-radio>\n    <sp-radio value=\"third\">Option 3</sp-radio>\n    <sp-radio value=\"fourth\">Option 4</sp-radio>\n</sp-radio-group>",
+          "javascriptreact": "<RadioGroup label=\"Favorite pet\">\n  <Radio value=\"dogs\">Dogs</Radio>\n  <Radio value=\"cats\">Cats</Radio>\n</RadioGroup>"
+        }
+      },
+      "name": "Radio button",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "2daf958c-c18c-428b-958d-e6edcd0b8080",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Radio button\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n[View full documentation](https://spectrum.adobe.com/page/radio-button/)",
+      "last_updated": "2020-10-19T03:14:10.272Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "e1d85045-3b45-4b1c-a4cd-30893b0c8b32",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "rating",
+        "languages": {
+          "css": "<div class=\"spectrum-Rating\">\n  <input class=\"spectrum-Rating-input\" type=\"range\" min=\"0\" max=\"5\" value=\"0\" aria-label=\"Rating\">\n\n  <span class=\"spectrum-Rating-icon\">\n    <svg class=\"spectrum-Icon spectrum-UIIcon-Star spectrum-Rating-starActive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-Star\"></use>\n    </svg>\n    <svg class=\"spectrum-Icon spectrum-UIIcon-StarOutline spectrum-Rating-starInactive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-StarOutline\"></use>\n    </svg>\n  </span>\n\n  <span class=\"spectrum-Rating-icon\">\n    <svg class=\"spectrum-Icon spectrum-UIIcon-Star spectrum-Rating-starActive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-Star\"></use>\n    </svg>\n    <svg class=\"spectrum-Icon spectrum-UIIcon-StarOutline spectrum-Rating-starInactive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-StarOutline\"></use>\n    </svg>\n  </span>\n\n  <span class=\"spectrum-Rating-icon\">\n    <svg class=\"spectrum-Icon spectrum-UIIcon-Star spectrum-Rating-starActive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-Star\"></use>\n    </svg>\n    <svg class=\"spectrum-Icon spectrum-UIIcon-StarOutline spectrum-Rating-starInactive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-StarOutline\"></use>\n    </svg>\n  </span>\n\n  <span class=\"spectrum-Rating-icon\">\n    <svg class=\"spectrum-Icon spectrum-UIIcon-Star spectrum-Rating-starActive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-Star\"></use>\n    </svg>\n    <svg class=\"spectrum-Icon spectrum-UIIcon-StarOutline spectrum-Rating-starInactive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-StarOutline\"></use>\n    </svg>\n  </span>\n\n  <span class=\"spectrum-Rating-icon\">\n    <svg class=\"spectrum-Icon spectrum-UIIcon-Star spectrum-Rating-starActive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-Star\"></use>\n    </svg>\n    <svg class=\"spectrum-Icon spectrum-UIIcon-StarOutline spectrum-Rating-starInactive\" focusable=\"false\" aria-hidden=\"true\">\n      <use xlink:href=\"#spectrum-css-icon-StarOutline\"></use>\n    </svg>\n  </span>\n</div>"
+        }
+      },
+      "name": "Rating",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "e8ce8a55-e9a2-4fe7-b0df-3c0a410a74cd",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Rating\n\nThe rating component lets users apply a rating to an item or experience, such as an image, a forum post, an item for sale in a marketplace, and more.\n\n[View full documentation](https://spectrum.adobe.com/page/rating/)",
+      "last_updated": "2020-10-19T03:12:03.618Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "76f498dc-9ecf-47e5-abd2-ed940bf8b099",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "slider",
+        "languages": {
+          "css": "<div class=\"spectrum-Slider\">\n  <div class=\"spectrum-Slider-controls\">\n    <div class=\"spectrum-Slider-track\"></div>\n    <div class=\"spectrum-Slider-handle\" style=\"left: 40%;\">\n      <input type=\"range\" class=\"spectrum-Slider-input\" value=\"14\" step=\"2\" min=\"10\" max=\"20\">\n    </div>\n    <div class=\"spectrum-Slider-track\"></div>\n  </div>\n</div>",
+          "html": "<sp-slider></sp-slider>"
+        }
+      },
+      "name": "Slider",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "ec924b2c-0925-4729-8eb8-a102b2987d72",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Slider\n\nSliders allow users to quickly select a value within a range. They should be used when the upper and lower bounds to the range are invariable.\n\n[View full documentation](https://spectrum.adobe.com/page/slider/)",
+      "last_updated": "2020-10-19T03:10:35.223Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "d90b3faa-b0c3-4591-a14d-934b1ebeb193",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "status-light",
+        "languages": {
+          "css": "<div class=\"spectrum-StatusLight spectrum-StatusLight--celery\">Celery Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--yellow\">Yellow Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--fuchsia\">Fuchsia Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--indigo\">Indigo Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--seafoam\">Seafoam Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--chartreuse\">Chartreuse Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--magenta\">Magenta Status</div>\n<div class=\"spectrum-StatusLight spectrum-StatusLight--purple\">Purple Status</div>",
+          "html": "<sp-status-light variant=\"positive\">approved</sp-status-light>",
+          "javascriptreact": "<StatusLight variant=\"positive\">Ready</StatusLight>"
+        }
+      },
+      "name": "Status Light",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "1119d191-b36b-44a4-9971-66f9e3cee42c",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Status light\n\nStatus lights describe the condition of an entity. They can be used to convey semantic meaning, such as statuses and categories.\n\n[View full documentation](https://spectrum.adobe.com/page/status-light/)",
+      "last_updated": "2020-10-19T03:09:41.148Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "49c97261-35f4-4344-b7a3-898eaec73e5a",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "switch",
+        "languages": {
+          "css": "<div class=\"spectrum-Switch\">\n  <input type=\"checkbox\" class=\"spectrum-Switch-input\" id=\"switch-onoff-0\">\n  <span class=\"spectrum-Switch-switch\"></span>\n  <label class=\"spectrum-Switch-label\" for=\"switch-onoff-0\">Switch Off</label>\n</div>\n<div class=\"spectrum-Switch\">\n  <input type=\"checkbox\" class=\"spectrum-Switch-input\" id=\"switch-onoff-1\" checked>\n  <span class=\"spectrum-Switch-switch\"></span>\n  <label class=\"spectrum-Switch-label\" for=\"switch-onoff-1\">Switch On</label>\n</div>",
+          "html": "<sp-switch label=\"Switch\" onclick=\"spAlert(this, '<sp-switch> clicked!')\">\n    Switch\n</sp-switch>",
+          "javascriptreact": "<Switch>Low power mode</Switch>"
+        }
+      },
+      "name": "Switch",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "fd057063-3c11-480a-8305-c58842eac1a3",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Switch\n\nSwitches allow users to turn an individual option on or off. They are usually used to activate or deactivate a specific setting.\n\n[View full documentation](https://spectrum.adobe.com/page/switch/)",
+      "last_updated": "2020-10-19T03:08:16.252Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "ed7c4412-ec97-45a9-bffa-edf9deeae6a7",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "tag",
+        "languages": {
+          "css": "<div class=\"spectrum-Tags\" role=\"list\" aria-label=\"list\">\n  <div class=\"spectrum-Tags-item\" role=\"listitem\">\n    <span class=\"spectrum-Tags-itemLabel\">Tag 1</span>\n  </div>\n  <div class=\"spectrum-Tags-item is-invalid\" role=\"listitem\">\n    <span class=\"spectrum-Tags-itemLabel\">Tag 2</span>\n  </div>\n  <div class=\"spectrum-Tags-item is-disabled\" role=\"listitem\">\n    <span class=\"spectrum-Tags-itemLabel\">Tag 2</span>\n  </div>\n</div>"
+        }
+      },
+      "name": "Tag",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "1fdacd08-3f05-41aa-9503-3808494b9106",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Tag\n\nTags allow users to categorize content. They can represent keywords or people, and are grouped to describe an item or a search request.\n\n[View full documentation](https://spectrum.adobe.com/page/tag/)",
+      "last_updated": "2020-10-19T03:06:21.017Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "1f24712e-9d8f-49bb-8d28-1bb652145af8",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "text-field",
+        "languages": {
+          "css": "<div class=\"spectrum-Textfield\">\n  <input type=\"text\" placeholder=\"Enter your name\" name=\"field\" value=\"\" class=\"spectrum-Textfield-input\">\n</div>",
+          "html": "<sp-textfield placeholder=\"Enter your name\"></sp-textfield>",
+          "javascriptreact": "<TextField label=\"Name\" />"
+        }
+      },
+      "name": "Text field",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "75bbacbb-98fe-4aa7-aa09-03a9db887763",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Text field\n\nText fields are text boxes that allow users to input custom text entries with a keyboard. Various options can be shown with the field to communicate the input requirements.\n\n[View full documentation](https://spectrum.adobe.com/page/text-field/)",
+      "last_updated": "2020-10-19T03:05:32.260Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "b50f5eee-2b03-45b9-931e-ddea720cb8f0",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "toast",
+        "languages": {
+          "css": "<div class=\"spectrum-Toast\">\n  <div class=\"spectrum-Toast-body\">\n    <div class=\"spectrum-Toast-content\">Button.xd has been archived</div>\n    <button class=\"spectrum-Button spectrum-Button--overBackground spectrum-Button--quiet\">\n      <span class=\"spectrum-Button-label\">Undo</span>\n    </button>\n  </div>\n  <div class=\"spectrum-Toast-buttons\">\n    <button class=\"spectrum-ClearButton spectrum-ClearButton--medium spectrum-ClearButton--overBackground\">\n      <svg class=\"spectrum-Icon spectrum-UIIcon-CrossMedium focusable=\"false\" aria-hidden=\"true\">\n        <use xlink:href=\"#spectrum-css-icon-CrossMedium\" />\n      </svg>\n    </button>\n  </div>\n</div>",
+          "html": "<sp-toast>This is important information that you should read, soon.</sp-toast>"
+        }
+      },
+      "name": "Toast",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "34c95419-71d5-4cb5-8d40-cecaa609d3ac",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Toast\n\nToasts display brief, temporary notifications. They are noticeable but do not disrupt the user experience and do not require an action to be taken.\n\n[View full documentation](https://spectrum.adobe.com/page/toast/)",
+      "last_updated": "2020-10-19T03:03:24.753Z",
+      "last_updated_by": "Demian Borba"
+    },
+    {
+      "class": "component",
+      "type": "page",
+      "tags": [],
+      "id": "b3f616f0-bdc8-48f4-a680-d17f1bc0908d",
+      "related_entity_ids": [],
+      "snippets": {
+        "trigger": "tooltip",
+        "languages": {
+          "css": "<span class=\"spectrum-Tooltip spectrum-Tooltip--top is-open\">\n  <span class=\"spectrum-Tooltip-label\">Label</span>\n  <span class=\"spectrum-Tooltip-tip\"></span>\n</span>",
+          "html": "<sp-tooltip open placement=\"top\">Label</sp-tooltip>"
+        }
+      },
+      "name": "Tooltip",
+      "ext-com_adobe-cclib": {
+        "source": "https://assets.adobe.com/public/9d00d6a2-e25f-4b17-7238-61ea92e1001a",
+        "id": "337c69ee-5f6c-4ce0-9382-ab67a056cfd7",
+        "last_sync": "2020-10-19T02:30:25.476Z",
+        "sync": true
+      },
+      "description": "# Tooltip\n\nTooltips allow users to get contextual help or information about specific components when hovering or focusing on them.\n\n[View full documentation](https://spectrum.adobe.com/page/tooltip/)",
+      "last_updated": "2020-10-19T03:02:47.140Z",
+      "last_updated_by": "Demian Borba"
     }
   ]
 }

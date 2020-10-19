@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132" height="52" viewBox="0 0 132 52">
+  <defs>
+    <filter id="Background" x="0" y="0" width="132" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Quick_actions" data-name="Quick actions" transform="translate(6 5)">
+    <g id="Quick_actions-2" data-name="Quick actions">
+      <g id="Placement_Area" data-name="Placement Area" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <rect width="120" height="40" stroke="none"/>
+        <rect x="0.5" y="0.5" width="119" height="39" fill="none"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -6, -5)" filter="url(#Background)">
+        <g id="Background-2" data-name="Background" transform="translate(6 5)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0.9">
+          <rect width="120" height="40" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="119" height="39" rx="3.5" fill="none"/>
+        </g>
+      </g>
+      <g id="Placement_Area-2" data-name="Placement Area" transform="translate(4 4)" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+        <rect width="112" height="32" stroke="none"/>
+        <rect x="0.5" y="0.5" width="111" height="31" fill="none"/>
+      </g>
+      <g id="Action_Button" data-name="Action Button">
+        <g id="Placement_Area-3" data-name="Placement Area" transform="translate(84 4)" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+          <rect width="32" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+        </g>
+        <g id="Background-3" data-name="Background" transform="translate(84 4)" fill="rgba(255,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1">
+          <rect width="32" height="32" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" rx="3.5" fill="none"/>
+        </g>
+        <g id="Icon">
+          <g id="Canvas" transform="translate(91 11)" fill="#747474" stroke="#747474" stroke-width="1" opacity="0">
+            <rect width="18" height="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+          </g>
+          <path id="Path_36" data-name="Path 36" d="M15.75,3H12V2a1,1,0,0,0-1-1H6A1,1,0,0,0,5,2V3H1.25A.25.25,0,0,0,1,3.25v.5A.25.25,0,0,0,1.25,4h1L3.457,16.55a.5.5,0,0,0,.5.45h9.089a.5.5,0,0,0,.5-.45L14.75,4h1A.25.25,0,0,0,16,3.75v-.5A.25.25,0,0,0,15.75,3ZM5.532,14.5A.5.5,0,0,1,5,14.035H5l-.536-8a.5.5,0,0,1,1-.067l.535,8a.5.5,0,0,1-.465.533ZM9,14a.5.5,0,0,1-1,0V6A.5.5,0,0,1,9,6ZM11,3H6V2h5Zm1,11.034a.5.5,0,0,1-1-.067l.535-8a.5.5,0,1,1,1,.067Z" transform="translate(91 11)" fill="#747474"/>
+        </g>
+      </g>
+      <g id="Action_Button-2" data-name="Action Button">
+        <g id="Placement_Area-4" data-name="Placement Area" transform="translate(4 4)" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+          <rect width="32" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+        </g>
+        <g id="Background-4" data-name="Background" transform="translate(4 4)" fill="rgba(255,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1">
+          <rect width="32" height="32" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" rx="3.5" fill="none"/>
+        </g>
+        <g id="Icon-2" data-name="Icon">
+          <g id="Canvas-2" data-name="Canvas" transform="translate(11 11)" fill="#747474" stroke="#747474" stroke-width="1" opacity="0">
+            <rect width="18" height="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+          </g>
+          <path id="Path_34" data-name="Path 34" d="M16.784,4.1,13.9,1.216a.608.608,0,0,0-.433-.176H13.45a.685.685,0,0,0-.464.2L2.542,11.686a.5.5,0,0,0-.126.211L1.028,16.55c-.057.188.229.426.391.426a.125.125,0,0,0,.031,0c.138-.031,3.933-1.172,4.656-1.389a.486.486,0,0,0,.207-.125L16.757,5.014a.686.686,0,0,0,.2-.441.61.61,0,0,0-.173-.473ZM5.7,14.658c-1.081.325-2.431.733-3.365,1.011l1-3.365Z" transform="translate(11 11)" fill="#747474"/>
+        </g>
+      </g>
+      <g id="Action_Button-3" data-name="Action Button">
+        <g id="Placement_Area-5" data-name="Placement Area" transform="translate(44 4)" fill="red" stroke="rgba(0,0,0,0)" stroke-width="1" opacity="0">
+          <rect width="32" height="32" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" fill="none"/>
+        </g>
+        <g id="Background-5" data-name="Background" transform="translate(44 4)" fill="rgba(255,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1">
+          <rect width="32" height="32" rx="4" stroke="none"/>
+          <rect x="0.5" y="0.5" width="31" height="31" rx="3.5" fill="none"/>
+        </g>
+        <g id="Icon-3" data-name="Icon">
+          <g id="Canvas-3" data-name="Canvas" transform="translate(51 11)" fill="#747474" stroke="#747474" stroke-width="1" opacity="0">
+            <rect width="18" height="18" stroke="none"/>
+            <rect x="0.5" y="0.5" width="17" height="17" fill="none"/>
+          </g>
+          <g id="Rectangle_289" data-name="Rectangle 289" transform="translate(67 22)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_290" data-name="Rectangle 290" transform="translate(67 20)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_291" data-name="Rectangle 291" transform="translate(67 18)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_292" data-name="Rectangle 292" transform="translate(67 16)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_293" data-name="Rectangle 293" transform="translate(67 14)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_294" data-name="Rectangle 294" transform="translate(67 12)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_295" data-name="Rectangle 295" transform="translate(65 12)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_296" data-name="Rectangle 296" transform="translate(63 12)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_297" data-name="Rectangle 297" transform="translate(61 12)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_298" data-name="Rectangle 298" transform="translate(59 12)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_299" data-name="Rectangle 299" transform="translate(57 12)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_300" data-name="Rectangle 300" transform="translate(57 14)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_301" data-name="Rectangle 301" transform="translate(57 16)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_302" data-name="Rectangle 302" transform="translate(57 18)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_303" data-name="Rectangle 303" transform="translate(57 20)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_304" data-name="Rectangle 304" transform="translate(57 22)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_305" data-name="Rectangle 305" transform="translate(59 22)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_306" data-name="Rectangle 306" transform="translate(61 22)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_307" data-name="Rectangle 307" transform="translate(63 22)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <g id="Rectangle_308" data-name="Rectangle 308" transform="translate(65 22)" fill="#747474" stroke="#747474" stroke-width="1">
+            <rect width="1" height="1" rx="0.25" stroke="none"/>
+            <rect x="0.5" y="0.5" fill="none"/>
+          </g>
+          <path id="Path_35" data-name="Path 35" d="M5,6H1.5a.5.5,0,0,0-.5.5v10a.5.5,0,0,0,.5.5h10a.5.5,0,0,0,.5-.5V13H5.5a.5.5,0,0,1-.5-.5Z" transform="translate(51 11)" fill="#747474"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
