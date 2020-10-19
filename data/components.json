@@ -13,7 +13,9 @@
         "trigger": "action-button",
         "languages": {
           "css": "<button class=\"spectrum-ActionButton\">\n  <span class=\"spectrum-ActionButton-label\">Edit</span>\n</button>",
-          "javascriptreact": "<ActionButton>\n  <Edit />\n  <Text>Edit</Text>\n</ActionButton>"
+          "javascriptreact": "<ActionButton>\n  <Edit />\n  <Text>Edit</Text>\n</ActionButton>",
+          "java": "<com.adobe.spectrum.controls.SpectrumActionButton\nstyle=\"?attr/adobe_spectrum_standardActionButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Action\"\nandroid:drawableLeft=\"@drawable/example\"/>",
+          "html": "<sp-action-button>Edit</sp-action-button>"
         }
       },
       "name": "Action button",
@@ -24,7 +26,7 @@
         "sync": true
       },
       "description": "# Action button\n\nAction buttons allow users to perform an action or mark a selection. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n[View full documentation](https://spectrum.adobe.com/page/action-button/)",
-      "last_updated": "2020-10-19T04:30:19.757Z",
+      "last_updated": "2020-10-19T04:45:08.214Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -37,7 +39,8 @@
         "trigger": "action-group",
         "languages": {
           "css": "<div class=\"spectrum-ActionGroup\">\n  <button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n    <span class=\"spectrum-ActionButton-label\">Edit</span>\n  </button>\n  <button class=\"spectrum-ActionButton spectrum-ActionGroup-item\">\n    <span class=\"spectrum-ActionButton-label\">Copy</span>\n  </button>\n  <button class=\"spectrum-ActionButton spectrum-ActionGroup-item is-selected\">\n    <span class=\"spectrum-ActionButton-label\">Delete</span>\n  </button>\n</div>",
-          "javascriptreact": "function Example() {\n  let [action, setAction] = React.useState();\n\n  return (\n    <>\n      <ActionGroup onAction={setAction}>\n        <Item key=\"add\">Add</Item>\n        <Item key=\"delete\">Delete</Item>\n        <Item key=\"edit\">Edit</Item>\n      </ActionGroup>\n      <p>Action: {action}</p>\n    </>\n  );\n}"
+          "javascriptreact": "function Example() {\n  let [action, setAction] = React.useState();\n\n  return (\n    <>\n      <ActionGroup onAction={setAction}>\n        <Item key=\"add\">Add</Item>\n        <Item key=\"delete\">Delete</Item>\n        <Item key=\"edit\">Edit</Item>\n      </ActionGroup>\n      <p>Action: {action}</p>\n    </>\n  );\n}",
+          "html": "<sp-action-group>\n    <sp-action-button>\n        <sp-icon slot=\"icon\" size=\"xs\" name=\"ui:Magnifier\"></sp-icon>\n        Button 1\n    </sp-action-button>\n    <sp-action-button>\n        <sp-icon slot=\"icon\" size=\"xs\" name=\"ui:Magnifier\"></sp-icon>\n        Longer Button 2\n    </sp-action-button>\n    <sp-action-button>\n        <sp-icon slot=\"icon\" size=\"xs\" name=\"ui:Magnifier\"></sp-icon>\n        Short 3\n    </sp-action-button>\n</sp-action-group>"
         }
       },
       "name": "Action group",
@@ -48,7 +51,7 @@
         "sync": true
       },
       "description": "# Action group\n\nAn action group is a grouping of action buttons that are related to each other.\n\n[View full documentation](https://spectrum.adobe.com/page/action-group/)",
-      "last_updated": "2020-10-19T04:30:53.956Z",
+      "last_updated": "2020-10-19T04:45:38.849Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -62,6 +65,7 @@
         "languages": {
           "css": "<button class=\"spectrum-Button spectrum-Button--cta\">\n  <span class=\"spectrum-Button-label\">Get started</span>\n</button>",
           "html": "<sp-button>Get started</sp-button>",
+          "java": "<com.adobe.spectrum.controls.SpectrumButton\nstyle=\"?attr/adobe_spectrum_secondaryButtonStyle\"\nandroid:layout_width=\"wrap_content\"\nandroid:layout_height=\"wrap_content\"\nandroid:text=\"Get started\" />",
           "javascriptreact": "<Button variant=\"cta\">Get started</Button>"
         }
       },
@@ -73,7 +77,7 @@
         "sync": true
       },
       "description": "# Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n[View full documentation](https://spectrum.adobe.com/page/button/)",
-      "last_updated": "2020-10-19T04:31:04.993Z",
+      "last_updated": "2020-10-19T04:46:11.589Z",
       "last_updated_by": "Demian Borba"
     },
     {
