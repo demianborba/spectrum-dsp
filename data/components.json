@@ -24,7 +24,7 @@
         "sync": true
       },
       "description": "# Action button\n\nAction buttons allow users to perform an action or mark a selection. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n[View full documentation](https://spectrum.adobe.com/page/action-button/)",
-      "last_updated": "2020-10-19T03:45:56.694Z",
+      "last_updated": "2020-10-19T04:30:19.757Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -48,7 +48,7 @@
         "sync": true
       },
       "description": "# Action group\n\nAn action group is a grouping of action buttons that are related to each other.\n\n[View full documentation](https://spectrum.adobe.com/page/action-group/)",
-      "last_updated": "2020-10-19T03:44:12.780Z",
+      "last_updated": "2020-10-19T04:30:53.956Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -73,7 +73,7 @@
         "sync": true
       },
       "description": "# Button\n\nButtons allow users to perform an action or to navigate to another page. They have multiple styles for various needs, and are ideal for calling attention to where a user needs to do something in order to move forward in a flow.\n\n[View full documentation](https://spectrum.adobe.com/page/button/)",
-      "last_updated": "2020-10-19T03:42:47.732Z",
+      "last_updated": "2020-10-19T04:31:04.993Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -97,7 +97,7 @@
         "sync": true
       },
       "description": "# Button group\n\nA button group is a grouping of buttons whose actions are related to each other.\n\n[View full documentation](https://spectrum.adobe.com/page/button-group/)",
-      "last_updated": "2020-10-19T03:39:54.061Z",
+      "last_updated": "2020-10-19T04:31:29.059Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -122,7 +122,7 @@
         "sync": true
       },
       "description": "# Checkbox\n\nCheckboxes allow users to select multiple items from a list of individual items, or to mark one individual item as selected.\n\n[View full documentation](https://spectrum.adobe.com/page/checkbox/)",
-      "last_updated": "2020-10-19T03:38:59.801Z",
+      "last_updated": "2020-10-19T04:31:45.213Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -145,7 +145,7 @@
         "sync": true
       },
       "description": "# Color area\n\nA color area allows users to visually select two properties of a color simultaneously. It's commonly used together with a color slider or color wheel.\n\n[View full documentation](https://spectrum.adobe.com/page/coach-mark/)",
-      "last_updated": "2020-10-19T03:37:05.492Z",
+      "last_updated": "2020-10-19T04:31:57.128Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -168,7 +168,7 @@
         "sync": true
       },
       "description": "# Color area\n\nA color area allows users to visually select two properties of a color simultaneously. It's commonly used together with a color slider or color wheel.\n\n[View full documentation](https://spectrum.adobe.com/page/color-area/)",
-      "last_updated": "2020-10-19T03:35:57.969Z",
+      "last_updated": "2020-10-19T04:32:09.343Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -191,7 +191,7 @@
         "sync": true
       },
       "description": "# Color slider\n\nA color slider lets users visually change an individual channel of a color.\n\n[View full documentation](https://spectrum.adobe.com/page/color-slider/)",
-      "last_updated": "2020-10-19T03:35:36.299Z",
+      "last_updated": "2020-10-19T04:32:19.079Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -214,7 +214,7 @@
         "sync": true
       },
       "description": "# Color wheel\n\nA color wheel lets users visually change an individual channel of a color on a circular track.\n\n[View full documentation](https://spectrum.adobe.com/page/color-wheel/)",
-      "last_updated": "2020-10-19T03:35:09.751Z",
+      "last_updated": "2020-10-19T04:32:29.044Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -237,7 +237,7 @@
         "sync": true
       },
       "description": "# Combo box\n\nCombo boxes combine a text entry with a picker menu, allowing users to filter longer lists to only the selections matching a query.\n\n[View full documentation](https://spectrum.adobe.com/page/combo-box/)",
-      "last_updated": "2020-10-19T03:33:53.653Z",
+      "last_updated": "2020-10-19T04:32:53.673Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -261,7 +261,7 @@
         "sync": true
       },
       "description": "# Dialog\n\nDialogs display important information that users need to acknowledge. They appear over the interface and block further interactions.\n\n[View full documentation](https://spectrum.adobe.com/page/dialog/)",
-      "last_updated": "2020-10-19T03:32:40.155Z",
+      "last_updated": "2020-10-19T04:33:06.758Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -285,7 +285,7 @@
         "sync": true
       },
       "description": "# Divider\n\nDividers bring clarity to a layout by grouping and dividing content in close proximity. They can also be used to establish rhythm and hierarchy.\n\n[View full documentation](https://spectrum.adobe.com/page/divider/)",
-      "last_updated": "2020-10-19T03:31:24.521Z",
+      "last_updated": "2020-10-19T04:33:23.452Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -310,7 +310,7 @@
         "sync": true
       },
       "description": "# Link\n\nLinks allow users to navigate to a different location. They can be presented inline inside a paragraph or as standalone text.\n\n[View full documentation](https://spectrum.adobe.com/page/link/)",
-      "last_updated": "2020-10-19T03:30:24.580Z",
+      "last_updated": "2020-10-19T04:33:39.474Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -334,7 +334,7 @@
         "sync": true
       },
       "description": "# Meter\n\nMeters are visual representations of a quantity or an achievement. Their progress is determined by user actions, rather than system actions.\n\n[View full documentation](https://spectrum.adobe.com/page/meter/)",
-      "last_updated": "2020-10-19T03:29:13.870Z",
+      "last_updated": "2020-10-19T04:33:53.931Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -359,7 +359,7 @@
         "sync": true
       },
       "description": "# Picker\n\nPickers (sometimes known as \"dropdowns\" or \"selects\") allow users to choose from a list of options in a limited space. The list of options can change based on the context.\n\n[View full documentation](https://spectrum.adobe.com/page/picker/)",
-      "last_updated": "2020-10-19T03:28:06.100Z",
+      "last_updated": "2020-10-19T04:34:22.066Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -383,7 +383,7 @@
         "sync": true
       },
       "description": "# Progress bar\n\nProgress bars show the progression of a system operation: downloading, uploading, processing, etc., in a visual way. They can represent either determinate or indeterminate progress.\n\n[View full documentation](https://spectrum.adobe.com/page/progress-bar/)",
-      "last_updated": "2020-10-19T03:26:18.056Z",
+      "last_updated": "2020-10-19T04:34:31.339Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -408,7 +408,7 @@
         "sync": true
       },
       "description": "# Progress circle\n\nProgress circles show the progression of a system operation such as downloading, uploading, processing, etc. in a visual way. They can represent determinate or indeterminate progress.\n\n[View full documentation](https://spectrum.adobe.com/page/progress-circle/)",
-      "last_updated": "2020-10-19T03:24:33.550Z",
+      "last_updated": "2020-10-19T04:34:41.491Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -431,7 +431,7 @@
         "sync": true
       },
       "description": "# Quick actions\n\nQuick actions allow users to perform contextual actions when hovering or focusing on a specific component. They're shortcuts meant to make workflows more efficient.\n\n[View full documentation](https://spectrum.adobe.com/page/quick-actions/)",
-      "last_updated": "2020-10-19T03:14:46.190Z",
+      "last_updated": "2020-10-19T04:34:52.386Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -456,7 +456,7 @@
         "sync": true
       },
       "description": "# Radio button\n\nRadio buttons allow users to select a single option from a list of mutually exclusive options. All possible options are exposed up front for users to compare.\n\n[View full documentation](https://spectrum.adobe.com/page/radio-button/)",
-      "last_updated": "2020-10-19T03:14:10.272Z",
+      "last_updated": "2020-10-19T04:35:02.264Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -479,7 +479,7 @@
         "sync": true
       },
       "description": "# Rating\n\nThe rating component lets users apply a rating to an item or experience, such as an image, a forum post, an item for sale in a marketplace, and more.\n\n[View full documentation](https://spectrum.adobe.com/page/rating/)",
-      "last_updated": "2020-10-19T03:12:03.618Z",
+      "last_updated": "2020-10-19T04:35:16.562Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -503,7 +503,7 @@
         "sync": true
       },
       "description": "# Slider\n\nSliders allow users to quickly select a value within a range. They should be used when the upper and lower bounds to the range are invariable.\n\n[View full documentation](https://spectrum.adobe.com/page/slider/)",
-      "last_updated": "2020-10-19T03:10:35.223Z",
+      "last_updated": "2020-10-19T04:35:28.205Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -528,7 +528,7 @@
         "sync": true
       },
       "description": "# Status light\n\nStatus lights describe the condition of an entity. They can be used to convey semantic meaning, such as statuses and categories.\n\n[View full documentation](https://spectrum.adobe.com/page/status-light/)",
-      "last_updated": "2020-10-19T03:09:41.148Z",
+      "last_updated": "2020-10-19T04:35:43.977Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -553,7 +553,7 @@
         "sync": true
       },
       "description": "# Switch\n\nSwitches allow users to turn an individual option on or off. They are usually used to activate or deactivate a specific setting.\n\n[View full documentation](https://spectrum.adobe.com/page/switch/)",
-      "last_updated": "2020-10-19T03:08:16.252Z",
+      "last_updated": "2020-10-19T04:36:18.728Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -576,7 +576,7 @@
         "sync": true
       },
       "description": "# Tag\n\nTags allow users to categorize content. They can represent keywords or people, and are grouped to describe an item or a search request.\n\n[View full documentation](https://spectrum.adobe.com/page/tag/)",
-      "last_updated": "2020-10-19T03:06:21.017Z",
+      "last_updated": "2020-10-19T04:36:32.711Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -601,7 +601,7 @@
         "sync": true
       },
       "description": "# Text field\n\nText fields are text boxes that allow users to input custom text entries with a keyboard. Various options can be shown with the field to communicate the input requirements.\n\n[View full documentation](https://spectrum.adobe.com/page/text-field/)",
-      "last_updated": "2020-10-19T03:05:32.260Z",
+      "last_updated": "2020-10-19T04:36:54.617Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -625,7 +625,7 @@
         "sync": true
       },
       "description": "# Toast\n\nToasts display brief, temporary notifications. They are noticeable but do not disrupt the user experience and do not require an action to be taken.\n\n[View full documentation](https://spectrum.adobe.com/page/toast/)",
-      "last_updated": "2020-10-19T03:03:24.753Z",
+      "last_updated": "2020-10-19T04:37:10.115Z",
       "last_updated_by": "Demian Borba"
     },
     {
@@ -649,7 +649,7 @@
         "sync": true
       },
       "description": "# Tooltip\n\nTooltips allow users to get contextual help or information about specific components when hovering or focusing on them.\n\n[View full documentation](https://spectrum.adobe.com/page/tooltip/)",
-      "last_updated": "2020-10-19T03:02:47.140Z",
+      "last_updated": "2020-10-19T04:37:21.372Z",
       "last_updated_by": "Demian Borba"
     }
   ]

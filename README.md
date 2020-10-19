@@ -20,7 +20,7 @@ Then navigate to your `node_modules` folder, and select the `adobe-spectrum-dsp`
 
 Compiled design tokens available in `/dist` as Android, CSS, Flutter (Dart), iOS (Objective-C), iOS (Swift), JavaScript, and SCSS.
 
-Code snippets available as Spectrum Android, Spectrum CSS and React Spectrum.
+Code snippets available as Spectrum CSS, Spectrum Web Components (HTML) and React Spectrum.
 
 ![code](assets/code-completion.png)
 
