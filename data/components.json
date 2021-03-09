@@ -26,7 +26,7 @@
         "sync": true
       },
       "description": "# Action button\n\nAction buttons allow users to perform an action or mark a selection. They’re used for similar, task-based options within a workflow, and are ideal for interfaces where buttons aren’t meant to draw a lot of attention.\n\n[View full documentation](https://spectrum.adobe.com/page/action-button/)",
-      "last_updated": "2020-10-19T04:45:08.214Z",
+      "last_updated": "2021-03-09T17:04:44.375Z",
       "last_updated_by": "Demian Borba"
     },
     {

@@ -4,7 +4,7 @@
       "family": {
         "value": "Source Code Pro"
       },
-      "style": {
+      "weight": {
         "value": "Regular"
       }
     },
@@ -12,7 +12,7 @@
       "family": {
         "value": "Adobe Clean"
       },
-      "style": {
+      "weight": {
         "value": "Regular"
       }
     },
@@ -20,7 +20,7 @@
       "family": {
         "value": "Adobe Clean"
       },
-      "style": {
+      "weight": {
         "value": "Bold"
       }
     },
@@ -28,7 +28,7 @@
       "family": {
         "value": "Adobe Clean"
       },
-      "style": {
+      "weight": {
         "value": "Bold"
       }
     }
